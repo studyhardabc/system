@@ -1,0 +1,39 @@
+#components-layout-demo-top-side-2 .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 28px 16px 0;
+  float: left;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+.ant-layout {
+  height: 100%;
+}
+
+.ant-layout-header {
+  background: #428bca;
+}
+
+.logo {
+  width: 210px;
+  height: 64px;
+  margin-top: 6px;
+  margin-left: -56px;
+  float: left;
+  background: url('http://stu.1000phone.net/Public/assets/css/images/logo.png?1589985076') no-repeat;
+}
+
+.ant-dropdown-link {
+  float: right;
+  color: #fff;
+}
+
+.trigger {
+  margin-top: 10px;
+  margin-left: 50%;
+  font-size: 20px;
+}
