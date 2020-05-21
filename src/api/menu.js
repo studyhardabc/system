@@ -96,7 +96,7 @@ const MenuArr = [
       },
       {
         title: "学员违纪",
-        permission: 3, //权限字段
+        permission: 1, //权限字段
         path: "/check/discipline",
       },
     ],
@@ -122,17 +122,17 @@ const MenuArr = [
   {
     title: "考试系统",
     icon: LaptopOutlined,
-    permission: 3, //权限字段
+    permission: 2, //权限字段
     path: "/system",
     children: [
       {
         title: "试卷列表",
-        permission: 3,
+        permission: 2,
         path: "/system/examinationPaper",
       },
       {
         title: "学员成绩",
-        permission: 3,
+        permission: 2,
         path: "/system/grade",
       },
     ],

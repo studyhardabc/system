@@ -196,5 +196,32 @@
       ],
       "default": true
     }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "123",
+      "password": 123456,
+      "roleName": "校长",
+      "roleState": true,
+      "default": true,
+      "roleType": 3
+    },
+    {
+      "username": "123",
+      "password": "123",
+      "roleType": 1,
+      "roleName": "学员",
+      "roleState": true,
+      "id": 2
+    },
+    {
+      "username": "111",
+      "password": "123",
+      "roleType": 2,
+      "roleName": "讲师",
+      "roleState": true,
+      "id": 3
+    }
   ]
 }

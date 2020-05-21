@@ -1,14 +1,22 @@
 import React, { Component } from "react";
+import axios from 'axios'
 import { Form, Input, Button } from "antd";
 import { UserOutlined, LockOutlined } from "@ant-design/icons";
-import style from "./index.css";
+import "./index.css";
 
 export default class Login extends Component {
-  NormalLoginForm = () => {
-    const onFinish = (values) => {
-      console.log("Received values of form: ", values);
-    };
+  onFinish = (value) => {
+    console.log("Received values of form: ", value);
+    axios.get(`http://localhost:3002/users?username=${value.username}&password=${value.password}&roleState=${true}`).then(res => {
+      if (res.data.length !== 0) {
+        localStorage.setItem('token', JSON.stringify(res.data[0]))
+        this.props.history.push('/')
+      } else {
+        alert('用户名或密码不正确')
+      }
+    })
   };
+
   render() {
     return (
       <div className="login_box">
