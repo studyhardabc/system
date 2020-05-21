@@ -13,6 +13,19 @@ const MenuArr = [
     path: "/home",
   },
   {
+    title: "用户管理",
+    icon: UserOutlined,
+    permission: 3, //权限字段
+    path: "/user",
+    children: [
+      {
+        title: "用户列表",
+        permission: 3,
+        path: "/user/usersList",
+      }
+    ],
+  },
+  {
     title: "学员后台",
     icon: UserOutlined,
     permission: 1, //权限字段

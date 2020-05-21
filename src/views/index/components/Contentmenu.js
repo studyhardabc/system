@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Route, Redirect, Switch } from "react-router-dom";
 import Home from '../../Home'
+import UserName from '../../UserName'
 import Complaint from '../../Complaint'
 import Problem from '../../Problem'
 import Itemupload from '../../Itemupload'
@@ -35,6 +36,7 @@ export default class Contentmenu extends Component {
       >
         <Switch>
         <Route path="/home" component={Home}></Route>
+        <Route path="/user/usersList" component={UserName}></Route>
         <Route path="/student/complaint" component={Complaint}></Route>
         <Route path="/student/problem" component={Problem}></Route>
         <Route path="/student/itemupload" component={Itemupload}></Route>
