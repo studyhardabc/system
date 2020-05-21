@@ -8,6 +8,7 @@ import Itemupload from '../../Itemupload'
 import Stuvip from '../../Stuvip'
 import Weekly from '../../Weekly'
 import Data from '../../Data'
+import Modification from '../../Modification'
 import MoneyDetail from '../../MoneyDetail'
 import Examination from '../../Examination'
 import Evaluate from '../../Evaluate'
@@ -43,6 +44,7 @@ export default class Contentmenu extends Component {
         <Route path="/student/stuvip" component={Stuvip}></Route>
         <Route path="/student/weekly" component={Weekly}></Route>
         <Route path="/student/data" component={Data}></Route>
+        <Route path="/student/modification/:id" component={Modification}></Route>
         <Route path="/student/moneyDetail" component={MoneyDetail}></Route>
         <Route path="/student/examination" component={Examination}></Route>
         <Route path="/student/evaluate" component={Evaluate}></Route>

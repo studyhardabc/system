@@ -8,8 +8,12 @@ export default class TopHeader extends Component {
     const menu = (
       <Menu>
         <Menu.Item>
-          <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">
-          <PoweroffOutlined /> 退出
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="http://www.alipay.com/"
+          >
+            <PoweroffOutlined /> 退出
           </a>
         </Menu.Item>
       </Menu>
