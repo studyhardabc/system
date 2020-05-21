@@ -35,22 +35,22 @@ export default class Contentmenu extends Component {
       >
         <Switch>
         <Route path="/home" component={Home}></Route>
-        <Route path="/complaint" component={Complaint}></Route>
-        <Route path="/problem" component={Problem}></Route>
-        <Route path="/itemupload" component={Itemupload}></Route>
-        <Route path="/stuvip" component={Stuvip}></Route>
-        <Route path="/weekly" component={Weekly}></Route>
-        <Route path="/data" component={Data}></Route>
-        <Route path="/moneyDetail" component={MoneyDetail}></Route>
-        <Route path="/examination" component={Examination}></Route>
-        <Route path="/evaluate" component={Evaluate}></Route>
-        <Route path="/inquiry" component={Inquiry}></Route>
-        <Route path="/leave" component={Leave}></Route>
-        <Route path="/discipline" component={Discipline}></Route>
-        <Route path="/roles" component={Roles}></Route>
-        <Route path="/rights" component={Rights}></Route>
-        <Route path="/examinationPaper" component={ExaminationPaper}></Route>
-        <Route path="/grade" component={Grade}></Route>
+        <Route path="/student/complaint" component={Complaint}></Route>
+        <Route path="/student/problem" component={Problem}></Route>
+        <Route path="/student/itemupload" component={Itemupload}></Route>
+        <Route path="/student/stuvip" component={Stuvip}></Route>
+        <Route path="/student/weekly" component={Weekly}></Route>
+        <Route path="/student/data" component={Data}></Route>
+        <Route path="/student/moneyDetail" component={MoneyDetail}></Route>
+        <Route path="/student/examination" component={Examination}></Route>
+        <Route path="/student/evaluate" component={Evaluate}></Route>
+        <Route path="/student/inquiry" component={Inquiry}></Route>
+        <Route path="/check/leave" component={Leave}></Route>
+        <Route path="/check/discipline" component={Discipline}></Route>
+        <Route path="/manage/roles" component={Roles}></Route>
+        <Route path="/manage/rights" component={Rights}></Route>
+        <Route path="/system/examinationPaper" component={ExaminationPaper}></Route>
+        <Route path="/system/grade" component={Grade}></Route>
 
         <Redirect from="/" to="/home" exact />
         <Route path="*" component={NotFound} />

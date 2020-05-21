@@ -11,6 +11,7 @@ import {
 
 const { SubMenu } = Menu;
 const { Sider } = Layout;
+// import MenuArr from '../../../api/menu.js'
 
 export default class SideMenu extends Component {
   state = {
