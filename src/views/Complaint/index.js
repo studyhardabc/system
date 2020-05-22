@@ -3,8 +3,13 @@ import axios from 'axios'
 import Swiper from 'swiper'
 import 'swiper/css/swiper.css'
 import { Button } from 'antd';
+<<<<<<< HEAD
 import { CheckOutlined, ReloadOutlined, BellOutlined } from '@ant-design/icons';
 import './index.css'
+=======
+import { CheckOutlined,ReloadOutlined } from '@ant-design/icons';
+import  "./index.css";
+>>>>>>> 89df8c43affa5ed2fa60884b8c653b123cc17df9
 
 export default class Complaint extends Component {
   state = {

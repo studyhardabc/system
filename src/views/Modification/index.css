@@ -1,0 +1,134 @@
+.Mod_box{
+  width: 100%;
+  height: 100%;
+}
+.Mod_top{
+  width: 100%;
+  height: 80px;
+  /* background: pink; */
+  text-align: center;
+  border-bottom: 1px dashed #ccc;
+}
+.Mod_top h3{
+  font-size: 24px;
+}
+.Mod_top p{
+  color: red;
+  margin-top: -10px;
+  font-size: 18px;
+}
+.Mod_con{
+  width: 100%;
+  /* height: 100%; */
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+.Con_top{
+  width: 100%;
+  height: 200px;
+  /* background: pink; */
+  padding-top: 10px;
+}
+.Con_top{
+  color: red;
+}
+.Con_first input{
+  width: 120px;
+  /* height: 25px; */
+}
+.stu{
+  margin-left: 120px;
+}
+.sex{
+  margin-left: 10px;
+}
+.Con_tel{
+  margin-left: 120px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Con_tel input{
+  width: 400px;
+}
+.Con_qq{
+  margin-left: 155px;
+  margin-bottom: 20px;
+}
+.Con_qq input{
+  width: 400px;
+}
+.Con_card{
+  margin-left: 107px;
+}
+.Con_card input{
+  width: 400px;
+}
+.Con_sch{
+  margin-left: 120px;
+  margin-top: 6px;
+  margin-bottom: 20px;
+}
+.sch_name{
+  margin-left: 20px;
+  /* margin-right: 20px; */
+}
+.sch_major{
+  margin-left: 20px;
+}
+.sch_state{
+  margin-left: 120px;
+  margin-bottom: 20px;
+}
+.sch_edu{
+  margin-left: 55px;
+}
+.sch_2{
+  margin-left: 120px;
+  margin-bottom: 20px;
+}
+.sch_exp{
+  margin-left: 27px;
+}
+.sch_com{
+  margin-left: 85px;
+}
+.sch_city{
+  margin-left: 93px;
+  margin-bottom: 20px;
+}
+.sch_tac input{
+  width: 120px;
+  height: 27px;
+}
+.city{
+  margin-left: 18px;
+}
+.sch_tac{
+  margin-left: 107px;
+  margin-bottom: 20px;
+}
+.rel{
+  margin-left: 45px;
+}
+.tel{
+  margin-left: 22px;
+}
+.adress{
+  margin-left: 93px;
+  margin-bottom: 40px;
+}
+.adress input{
+  width: 450px;
+}
+.Mod_btn1 , .Mod_btn2{
+  width: 85px;
+  height: 42px;
+}
+.Mod_btn1{
+  margin-left: 200px;
+  margin-bottom: 40px;
+}
+.Mod_btn2{
+  margin-left: 100px;
+}
+
