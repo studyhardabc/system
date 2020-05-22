@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Button } from 'antd';
 import { CheckOutlined,ReloadOutlined } from '@ant-design/icons';
-import style from './index.css'
+import  "./index.css";
 
 export default class Complaint extends Component {
   render() {

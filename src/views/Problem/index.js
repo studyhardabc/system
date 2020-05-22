@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Button, Table } from "antd";
 import { CheckOutlined, ReloadOutlined } from "@ant-design/icons";
-import style from "./index.css";
+import  "./index.css";
 export default class Problem extends Component {
   state = {
     columns: [
@@ -20,6 +20,10 @@ export default class Problem extends Component {
       {
         title: "回复",
         dataIndex: "reply"
+      },
+      {
+        title:'操作',
+        dataIndex:'sadas'
       }
     ],
     data:[
@@ -28,28 +32,35 @@ export default class Problem extends Component {
         name:'John Brown',
         question:'呵呵',
         time:'2020-5-21',
-        reply:'呵呵哒'
+        reply:'呵呵哒',
+        sadas:'sadasd',
+        render:()=>{
+          return <Button></Button>
+        }
       },
       {
         key:'2',
         name:'John Brown',
         question:'呵呵',
         time:'2020-5-21',
-        reply:'呵呵哒'
+        reply:'呵呵哒',
+        sadas:'lalallla'
       },
       {
         key:'3',
         name:'John Brown',
         question:'呵呵',
         time:'2020-5-21',
-        reply:'呵呵哒'
+        reply:'呵呵哒',
+        sadas:'lalallla'
       },
       {
         key:'4',
         name:'John Brown',
         question:'呵呵',
         time:'2020-5-21',
-        reply:'呵呵哒'
+        reply:'呵呵哒',
+        sadas:'lalallla'
       },
     ]
   };
