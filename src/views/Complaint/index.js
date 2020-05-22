@@ -1,18 +1,40 @@
 import React, { Component } from 'react'
+import axios from 'axios'
+import Swiper from 'swiper'
+import 'swiper/css/swiper.css'
 import { Button } from 'antd';
-import { CheckOutlined,ReloadOutlined } from '@ant-design/icons';
-import style from './index.css'
+import { CheckOutlined, ReloadOutlined, BellOutlined } from '@ant-design/icons';
+import './index.css'
 
 export default class Complaint extends Component {
+  state = {
+    data: []
+  }
+
   render() {
     return (
       <div className='Com_box'>
         <div className='Com_infor'>
         <p>投诉内容：</p>
-        <textarea placeholder="本投诉是匿名投诉，不会暴露信息" className='Com_text'>
+        <textarea placeholder="本投诉是匿名投诉，不会暴露信息" className='Com_text' ref="textareaValue">
         </textarea>
+        <div className="Con_frame">
+          {
+            this.state.data?
+            <div className="swiper-container" ref="Swiper">
+            <div className="swiper-wrapper">
+              {
+                this.state.data.map(item => {
+                  return <div className="swiper-slide" key={item + Math.random()}>投诉<BellOutlined />：{item}</div>
+                })
+              }
+            </div>
+          </div>:
+          null
+          }
         </div>
-        <Button className='Com_btn1' type="primary" icon={<CheckOutlined />}>
+        </div>
+        <Button className='Com_btn1' type="primary" icon={<CheckOutlined />} onClick={this.ButtonClick}>
           确定
         </Button>
         <Button className='Com_btn2' type="primary" icon={<ReloadOutlined />}>
@@ -20,5 +42,39 @@ export default class Complaint extends Component {
         </Button>
       </div>
     )
+  }
+
+  componentDidMount() {
+    axios.get('http://localhost:3002/complaint').then(res => {
+      console.log(res.data);
+      this.setState({
+        data: res.data.map(item => item.value)
+      }, () => {
+        this.mySwiper = new Swiper(this.refs.Swiper, {
+          direction: 'vertical',
+          loop: true,
+          autoplay: true
+        })
+      })
+    })
+  }
+
+
+  ButtonClick = () => {
+    let value = this.refs.textareaValue.value
+    axios.post('http://localhost:3002/complaint', {
+      value
+    }).then(res => {
+      this.setState({
+        data: [...this.state.data, value]
+      }, () => {
+        new Swiper(this.refs.Swiper, {
+          direction: 'vertical',
+          loop: true,
+          autoplay: true
+        })
+      })
+    })
+    this.refs.textareaValue.value = ''
   }
 }

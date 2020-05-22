@@ -49,8 +49,14 @@ class SideMenu extends Component {
 
   renderMenu = (MenuArr) => {
     let obj = JSON.parse(localStorage.getItem('token'))
-    return MenuArr.map(item => {
+    return MenuArr.map((item,index) => {
       if (item.children && obj.roleType >= item.permission) {
+        if (obj.roleType === 2 && item.children[1].title === '技术问题') {
+          return <SubMenu key={item.path} icon={<item.icon />} title={item.title}>
+            <Menu.Item key={item.children[1].path}>{ item.children[1].title }</Menu.Item>
+            <Menu.Item key={item.children[4].path}>{ item.children[4].title }</Menu.Item>
+          </SubMenu>
+        }
         if (obj.roleType === 2 && item.permission === 1) {
           return null
         }

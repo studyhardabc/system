@@ -25,3 +25,21 @@
   margin-top: 40px;
   margin-right: 100px;
 }
+
+.Con_frame {
+  width: 400px;
+  height: 20px;
+  border: 2px solid #ccc;
+  float: right;
+  margin-right: 70px;
+  line-height: 18px;
+  overflow: hidden;
+}
+
+.swiper-container {
+  width: 100%;
+}
+
+.swiper-slide {
+  color: red;
+}
