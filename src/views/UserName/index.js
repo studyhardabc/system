@@ -1,14 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import {
-  Button,
-  Table,
-  Switch,
-  Modal,
-  Form,
-  Input,
-  Select,
-} from "antd";
+import { Button, Table, Switch, Modal, Form, Input, Select } from "antd";
 import { EditOutlined, DeleteOutlined } from "@ant-design/icons";
 const { Option } = Select;
 
@@ -89,13 +81,24 @@ export default class Users extends Component {
 
   // 验证成功后存进数据库
   renderTable = (values) => {
-    const { username, password, roleType } = values;
+    const {
+      username,
+      password,
+      roleType,
+      StudentNumber,
+      class1,
+      recruiter,
+    } = values;
     const roleArr = ["学员", "讲师", "校长"];
     axios
       .post("http://localhost:3002/users", {
         username,
         password,
         roleType,
+        StudentNumber,
+        class1,
+        recruiter,
+        time: new Date().getTime(),
         roleName: roleArr[roleType - 1],
         roleState: false,
       })
@@ -132,6 +135,9 @@ export default class Users extends Component {
           username: obj.username,
           password: obj.password,
           roleType: obj.roleType,
+          StudentNumber: obj.StudentNumber,
+          class1: obj.class1,
+          recruiter: obj.recruiter
         },
         0
       );
@@ -270,6 +276,42 @@ export default class Users extends Component {
               <Input />
             </Form.Item>
             <Form.Item
+              name="StudentNumber"
+              label="学号"
+              rules={[
+                {
+                  required: true,
+                  message: "Please input the StudentNumber of collection!",
+                },
+              ]}
+            >
+              <Input />
+            </Form.Item>
+            <Form.Item
+              name="class1"
+              label="班级"
+              rules={[
+                {
+                  required: true,
+                  message: "Please input the class of collection!",
+                },
+              ]}
+            >
+              <Input />
+            </Form.Item>
+            <Form.Item
+              name="recruiter"
+              label="招生老师"
+              rules={[
+                {
+                  required: true,
+                  message: "Please input the recruiter of collection!",
+                },
+              ]}
+            >
+              <Input />
+            </Form.Item>
+            <Form.Item
               name="roleType"
               label="角色"
               rules={[
@@ -331,6 +373,43 @@ export default class Users extends Component {
             >
               <Input />
             </Form.Item>
+            <Form.Item
+              name="StudentNumber"
+              label="学号"
+              rules={[
+                {
+                  required: true,
+                  message: "Please input the StudentNumber of collection!",
+                },
+              ]}
+            >
+              <Input />
+            </Form.Item>
+            <Form.Item
+              name="class1"
+              label="班级"
+              rules={[
+                {
+                  required: true,
+                  message: "Please input the class of collection!",
+                },
+              ]}
+            >
+              <Input />
+            </Form.Item>
+            <Form.Item
+              name="recruiter"
+              label="招生老师"
+              rules={[
+                {
+                  required: true,
+                  message: "Please input the recruiter of collection!",
+                },
+              ]}
+            >
+              <Input />
+            </Form.Item>
+
             <Form.Item
               name="roleType"
               label="角色"

@@ -208,25 +208,37 @@
       "roleType": 3
     },
     {
-      "username": "123123123123",
+      "username": "杨浩",
       "password": "123",
       "roleType": 1,
+      "StudentNumber": "SZ1921",
+      "class1": "深圳1921",
+      "recruiter": "易海燕",
+      "time": 1590220185860,
       "roleName": "学员",
       "roleState": true,
       "id": 2
     },
     {
-      "username": "111",
+      "username": "浩哥",
       "password": "123",
       "roleType": 2,
+      "StudentNumber": "123",
+      "class1": "123",
+      "recruiter": "123",
+      "time": 1590224859081,
       "roleName": "讲师",
       "roleState": true,
       "id": 3
     },
     {
-      "username": "123",
+      "username": "111",
       "password": "123",
       "roleType": 1,
+      "StudentNumber": "123",
+      "class1": "123",
+      "recruiter": "123",
+      "time": 1590225896380,
       "roleName": "学员",
       "roleState": true,
       "id": 4
@@ -270,7 +282,7 @@
       "name": "123",
       "question": "111",
       "time": 1590152103168,
-      "reply": "",
+      "reply": "123",
       "id": 5
     }
   ],
@@ -324,15 +336,52 @@
       "weeklystatus": "未查看",
       "time": 1590152087326,
       "id": 4
+    }
+  ],
+  "modification": [
+    {
+      "username": "杨浩",
+      "sex": "男",
+      "CellPhoneNumber": "手机号",
+      "QQ": "QQ",
+      "IdentityCard": "身份证",
+      "provinces": "广东省",
+      "schoolname": "江西科技大学",
+      "specialty": "学校专业",
+      "status": "非应届",
+      "education": "博士",
+      "major": "计算机专业",
+      "experience": "有",
+      "computer": "个人携带",
+      "StudentsProvinces": "广东省",
+      "city": "南昌市",
+      "contacts": "123",
+      "relation": "123",
+      "phone": "123",
+      "site": "123",
+      "id": 1
     },
     {
-      "key": 1590154676797,
-      "name": "123",
-      "title": "1",
-      "content": "1",
-      "weeklystatus": "未查看",
-      "time": 1590154676797,
-      "id": 5
+      "username": "111",
+      "sex": "男",
+      "CellPhoneNumber": "123",
+      "QQ": "123",
+      "IdentityCard": "123",
+      "provinces": "江西省",
+      "schoolname": "南昌大学",
+      "specialty": "123",
+      "status": "大一",
+      "education": "博士",
+      "major": "非计算机专业",
+      "experience": "有",
+      "computer": "个人携带",
+      "StudentsProvinces": "江西省",
+      "city": "南昌市",
+      "contacts": "123",
+      "relation": "123",
+      "phone": "123",
+      "site": "123",
+      "id": 2
     }
   ]
 }
