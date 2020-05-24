@@ -32,7 +32,7 @@ export default class Contentmenu extends Component {
         style={{
           padding: 24,
           margin: 0,
-          minHeight: 280,
+          minHeight: 'auto',
         }}
       >
         <Switch>
