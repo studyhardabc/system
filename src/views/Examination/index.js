@@ -5,6 +5,8 @@ import "./index.css";
 export default class Examination extends Component {
   state = {
     data: [],
+    dataList: [],
+    num: 0
   };
 
   render() {
@@ -42,7 +44,9 @@ export default class Examination extends Component {
                       {arr.map((arrItem) => {
                         return (
                           <span key={arrItem.list[0]}>
-                            <input type="radio" name={item.id} />
+                            <input type="radio" name={item.id} value={arrItem.list[0]} ref="input" onClick={(e) => {
+                              this.fn1(e, item.id)
+                            }} />
                                           {arrItem.list[0]}&nbsp;&nbsp;{arrItem.list[1]};
                                           
                             <br />
@@ -102,9 +106,32 @@ export default class Examination extends Component {
 
   componentDidMount() {
     axios.get("http://localhost:3002/examination").then((res) => {
+      console.log(res.data[0]);
+
       this.setState({
         data: res.data[0],
       });
     });
+  }
+
+  fn1 = (e, id) => {
+    // console.log(e.target.value);
+  //     if (id && this.state.dataList[id-1] !== e.target.valu) {
+  //       this.state.dataList[id-1] = e.target.value
+  //       console.log(this.state.dataList);
+  //       return
+  //     }
+  //   this.state.dataList.splice(id-1, 0,e.target.value)
+  //   console.log(this.state.dataList);
+  // }
+
+    axios.get(`http://localhost:3002/examination/${id}`).then(res => {
+      let data = res.data[0]
+      if (data.rightkey === e.target.value) {
+        this.setState({
+          num: this.state.num+=data.fraction
+        })
+      }
+    })
   }
 }

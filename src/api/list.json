@@ -385,762 +385,1163 @@
       "id": 2
     }
   ],
-  "examination":[
+  "examination": [
     {
-      "examinationsin":[
+      "examinationsin": [
         {
           "id": 1,
-          "title":"产生当前日期的方法是",
-          "fraction": 2.0 ,
-          "rightkey":"C",
-          "content":{
-            "A" : {
-              "list":["A","Now()"],
+          "title": "产生当前日期的方法是",
+          "fraction": 2,
+          "rightkey": "C",
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "Now()"
+              ],
               "status": false
             },
-            "B":{
-              "list":["B","new Data()"],
-              "status":false
+            "B": {
+              "list": [
+                "B",
+                "new Data()"
+              ],
+              "status": false
             },
-            "C":{
-              "list":["C","new Date()"],
-              "status":true
+            "C": {
+              "list": [
+                "C",
+                "new Date()"
+              ],
+              "status": true
             },
-            "D":{
-              "list":["D","new Now()"],
-              "status":false
+            "D": {
+              "list": [
+                "D",
+                "new Now()"
+              ],
+              "status": false
             }
           }
         },
         {
           "id": 2,
-          "title":"在Javascript浏览器对象模型中，window对象的（）属性用来指定浏览器状态栏中显示的临时消息",
-          "fraction": 2.0 ,
-          "rightkey":"A",
-          "content":{
-            "A" : {
-              "list":["A","status"],
+          "title": "在Javascript浏览器对象模型中，window对象的（）属性用来指定浏览器状态栏中显示的临时消息",
+          "fraction": 2,
+          "rightkey": "A",
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "status"
+              ],
               "status": true
             },
-            "B":{
-              "list":["B","screen"],
-              "status":false
+            "B": {
+              "list": [
+                "B",
+                "screen"
+              ],
+              "status": false
             },
-            "C":{
-              "list":["C","history"],
-              "status":false
+            "C": {
+              "list": [
+                "C",
+                "history"
+              ],
+              "status": false
             },
-            "D":{
-              "list":["D","document"],
-              "status":false
+            "D": {
+              "list": [
+                "D",
+                "document"
+              ],
+              "status": false
             }
           }
         },
         {
           "id": 3,
-          "title":"下面哪个方法可以匹配数组是否含有某个值？",
-          "fraction": 2.0 ,
-          "rightkey":"D",
-          "content":{
-            "A" : {
-              "list":["A","sort()"],
+          "title": "下面哪个方法可以匹配数组是否含有某个值？",
+          "fraction": 2,
+          "rightkey": "D",
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "sort()"
+              ],
               "status": false
             },
-            "B":{
-              "list":["B","push()"],
-              "status":false
+            "B": {
+              "list": [
+                "B",
+                "push()"
+              ],
+              "status": false
             },
-            "C":{
-              "list":["C","join()"],
-              "status":false
+            "C": {
+              "list": [
+                "C",
+                "join()"
+              ],
+              "status": false
             },
-            "D":{
-              "list":["D","indexOf()"],
-              "status":true
+            "D": {
+              "list": [
+                "D",
+                "indexOf()"
+              ],
+              "status": true
             }
           }
         },
         {
           "id": 4,
-          "title":"Jq中找到指定div元素id为user错误的",
-          "fraction": 2.0 ,
-          "rightkey":"D",
-          "content":{
-            "A" : {
-              "list":["A","$('#user')"],
+          "title": "Jq中找到指定div元素id为user错误的",
+          "fraction": 2,
+          "rightkey": "D",
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "$('#user')"
+              ],
               "status": false
             },
-            "B":{
-              "list":["B","('#'+'user')"],
-              "status":false
+            "B": {
+              "list": [
+                "B",
+                "('#'+'user')"
+              ],
+              "status": false
             },
-            "C":{
-              "list":["C","$('div[id=user]')"],
-              "status":false
+            "C": {
+              "list": [
+                "C",
+                "$('div[id=user]')"
+              ],
+              "status": false
             },
-            "D":{
-              "list":["D","$('div[id==user]')"],
-              "status":true
+            "D": {
+              "list": [
+                "D",
+                "$('div[id==user]')"
+              ],
+              "status": true
             }
           }
         },
         {
           "id": 5,
-          "title":"有代码var obj1={a:[1]，b：1）；var obj2={a:[2]，c：2}；var obj=Object.assign（obj1，obj2）；运行之后obj的结果为",
-          "fraction": 2.0 ,
-          "rightkey":"C",
-          "content":{
-            "A" : {
-              "list":["A","{a:[1],b:1}"],
+          "title": "有代码var obj1={a:[1]，b：1）；var obj2={a:[2]，c：2}；var obj=Object.assign（obj1，obj2）；运行之后obj的结果为",
+          "fraction": 2,
+          "rightkey": "C",
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "{a:[1],b:1}"
+              ],
               "status": false
             },
-            "B":{
-              "list":["B","{a:[1,2],b:1,c:2}"],
-              "status":false
+            "B": {
+              "list": [
+                "B",
+                "{a:[1,2],b:1,c:2}"
+              ],
+              "status": false
             },
-            "C":{
-              "list":["C","{a:[2],b:1,c:2}"],
-              "status":true
+            "C": {
+              "list": [
+                "C",
+                "{a:[2],b:1,c:2}"
+              ],
+              "status": true
             },
-            "D":{
-              "list":["D","{a:[2],c:2})"],
-              "status":false
+            "D": {
+              "list": [
+                "D",
+                "{a:[2],c:2})"
+              ],
+              "status": false
             }
           }
         },
         {
           "id": 6,
-          "title":"有代码 function foo(){var a=10；return function(){console.log（a++）}}foo()()；运行之后，会在控制台中打印",
-          "fraction": 2.0 ,
-          "rightkey":"A",
-          "content":{
-            "A" : {
-              "list":["A","10"],
+          "title": "有代码 function foo(){var a=10；return function(){console.log（a++）}}foo()()；运行之后，会在控制台中打印",
+          "fraction": 2,
+          "rightkey": "A",
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "10"
+              ],
               "status": true
             },
-            "B":{
-              "list":["B","11"],
-              "status":false
+            "B": {
+              "list": [
+                "B",
+                "11"
+              ],
+              "status": false
             },
-            "C":{
-              "list":["C","函数体"],
-              "status":false
+            "C": {
+              "list": [
+                "C",
+                "函数体"
+              ],
+              "status": false
             },
-            "D":{
-              "list":["D","报错"],
-              "status":false
+            "D": {
+              "list": [
+                "D",
+                "报错"
+              ],
+              "status": false
             }
           }
         },
         {
           "id": 7,
-          "title":"在ES6（2015）中，哪个是原先没有的名词",
-          "fraction": 2.0 ,
-          "rightkey":"B",
-          "content":{
-            "A" : {
-              "list":["A","函数"],
+          "title": "在ES6（2015）中，哪个是原先没有的名词",
+          "fraction": 2,
+          "rightkey": "B",
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "函数"
+              ],
               "status": false
             },
-            "B":{
-              "list":["B","类"],
-              "status":true
+            "B": {
+              "list": [
+                "B",
+                "类"
+              ],
+              "status": true
             },
-            "C":{
-              "list":["C","递归"],
-              "status":false
+            "C": {
+              "list": [
+                "C",
+                "递归"
+              ],
+              "status": false
             },
-            "D":{
-              "list":["D","过程"],
-              "status":false
+            "D": {
+              "list": [
+                "D",
+                "过程"
+              ],
+              "status": false
             }
           }
         },
         {
           "id": 8,
-          "title":"jQuery中的delay方法的作用是",
-          "fraction": 2.0 ,
-          "rightkey":"C",
-          "content":{
-            "A" : {
-              "list":["A","停止动画执行"],
+          "title": "jQuery中的delay方法的作用是",
+          "fraction": 2,
+          "rightkey": "C",
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "停止动画执行"
+              ],
               "status": false
             },
-            "B":{
-              "list":["B","暂停动画执行"],
-              "status":false
+            "B": {
+              "list": [
+                "B",
+                "暂停动画执行"
+              ],
+              "status": false
             },
-            "C":{
-              "list":["C","延迟动画执行"],
-              "status":true
+            "C": {
+              "list": [
+                "C",
+                "延迟动画执行"
+              ],
+              "status": true
             },
-            "D":{
-              "list":["D","开始动画执行"],
-              "status":false
+            "D": {
+              "list": [
+                "D",
+                "开始动画执行"
+              ],
+              "status": false
             }
           }
         },
         {
           "id": 9,
-          "title":"php的源码是（）开源语言",
-          "fraction": 2.0 ,
-          "rightkey":"A",
-          "content":{
-            "A" : {
-              "list":["A","开放的"],
+          "title": "php的源码是（）开源语言",
+          "fraction": 2,
+          "rightkey": "A",
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "开放的"
+              ],
               "status": true
             },
-            "B":{
-              "list":["B","封闭的"],
-              "status":false
+            "B": {
+              "list": [
+                "B",
+                "封闭的"
+              ],
+              "status": false
             },
-            "C":{
-              "list":["C","需购买的"],
-              "status":false
+            "C": {
+              "list": [
+                "C",
+                "需购买的"
+              ],
+              "status": false
             },
-            "D":{
-              "list":["D","完全不可见的"],
-              "status":false
+            "D": {
+              "list": [
+                "D",
+                "完全不可见的"
+              ],
+              "status": false
             }
           }
         },
         {
           "id": 10,
-          "title":"XMLHttpRequest对象的status属性表示当前请求的http状态码，其中（）表示正确返回。",
-          "fraction": 2.0 ,
-          "rightkey":"A",
-          "content":{
-            "A" : {
-              "list":["A","200"],
+          "title": "XMLHttpRequest对象的status属性表示当前请求的http状态码，其中（）表示正确返回。",
+          "fraction": 2,
+          "rightkey": "A",
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "200"
+              ],
               "status": true
             },
-            "B":{
-              "list":["B","301"],
-              "status":false
+            "B": {
+              "list": [
+                "B",
+                "301"
+              ],
+              "status": false
             },
-            "C":{
-              "list":["C","500"],
-              "status":false
+            "C": {
+              "list": [
+                "C",
+                "500"
+              ],
+              "status": false
             },
-            "D":{
-              "list":["D","404"],
-              "status":false
+            "D": {
+              "list": [
+                "D",
+                "404"
+              ],
+              "status": false
             }
           }
         },
         {
           "id": 11,
-          "title":"以下运行的结果是false的是function Box(){this.name='zhang'}function Desk(){this.age=100}function Table()（this.lever=1000]Desk.prototype=new Box()；//通过原型链继承 var desk=new Desk()；var table=new Table()；",
-          "fraction": 2.0 ,
-          "rightkey":"C",
-          "content":{
-            "A" : {
-              "list":["A","alert(table instanceof Object)"],
+          "title": "以下运行的结果是false的是function Box(){this.name='zhang'}function Desk(){this.age=100}function Table()（this.lever=1000]Desk.prototype=new Box()；//通过原型链继承 var desk=new Desk()；var table=new Table()；",
+          "fraction": 2,
+          "rightkey": "C",
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "alert(table instanceof Object)"
+              ],
               "status": false
             },
-            "B":{
-              "list":["B","alert(desk instanceof Box);"],
-              "status":false
+            "B": {
+              "list": [
+                "B",
+                "alert(desk instanceof Box);"
+              ],
+              "status": false
             },
-            "C":{
-              "list":["C","alert(Desk instanceof Box);"],
-              "status":true
+            "C": {
+              "list": [
+                "C",
+                "alert(Desk instanceof Box);"
+              ],
+              "status": true
             },
-            "D":{
-              "list":["D","alert(desk instanceof Desk);"],
-              "status":false
+            "D": {
+              "list": [
+                "D",
+                "alert(desk instanceof Desk);"
+              ],
+              "status": false
             }
           }
         },
         {
           "id": 12,
-          "title":"gulp-sass模块的作用是？",
-          "fraction": 2.0 ,
-          "rightkey":"B",
-          "content":{
-            "A" : {
-              "list":["A","编译JS"],
+          "title": "gulp-sass模块的作用是？",
+          "fraction": 2,
+          "rightkey": "B",
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "编译JS"
+              ],
               "status": false
             },
-            "B":{
-              "list":["B","编译SCSS"],
-              "status":true
+            "B": {
+              "list": [
+                "B",
+                "编译SCSS"
+              ],
+              "status": true
             },
-            "C":{
-              "list":["C","编译HTML"],
-              "status":false
+            "C": {
+              "list": [
+                "C",
+                "编译HTML"
+              ],
+              "status": false
             },
-            "D":{
-              "list":["D","编译图片"],
-              "status":false
+            "D": {
+              "list": [
+                "D",
+                "编译图片"
+              ],
+              "status": false
             }
           }
         },
         {
           "id": 13,
-          "title":"jQuery中，哪个方法能够改变属性？",
-          "fraction": 2.0 ,
-          "rightkey":"A",
-          "content":{
-            "A" : {
-              "list":["A","attr()"],
+          "title": "jQuery中，哪个方法能够改变属性？",
+          "fraction": 2,
+          "rightkey": "A",
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "attr()"
+              ],
               "status": true
             },
-            "B":{
-              "list":["B","push()"],
-              "status":false
+            "B": {
+              "list": [
+                "B",
+                "push()"
+              ],
+              "status": false
             },
-            "C":{
-              "list":["C","map()"],
-              "status":false
+            "C": {
+              "list": [
+                "C",
+                "map()"
+              ],
+              "status": false
             },
-            "D":{
-              "list":["D","set()"],
-              "status":false
+            "D": {
+              "list": [
+                "D",
+                "set()"
+              ],
+              "status": false
             }
           }
         },
         {
           "id": 14,
-          "title":"如果提示提交内容为空、不能提交，则最为合适的处理方式是",
-          "fraction": 2.0 ,
-          "rightkey":"A",
-          "content":{
-            "A" : {
-              "list":["A","执行git status 查看状态，再执行git add命令选择要提交的文件，然后提交。"],
+          "title": "如果提示提交内容为空、不能提交，则最为合适的处理方式是",
+          "fraction": 2,
+          "rightkey": "A",
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "执行git status 查看状态，再执行git add命令选择要提交的文件，然后提交。"
+              ],
               "status": true
             },
-            "B":{
-              "list":["B","执行git commit--allow-empty，允许空提交。"],
-              "status":false
+            "B": {
+              "list": [
+                "B",
+                "执行git commit--allow-empty，允许空提交。"
+              ],
+              "status": false
             },
-            "C":{
-              "list":["C","执行git commit-a，提交所有改动。"],
-              "status":false
+            "C": {
+              "list": [
+                "C",
+                "执行git commit-a，提交所有改动。"
+              ],
+              "status": false
             },
-            "D":{
-              "list":["D","执行 git commit--amend 进行修补提交。"],
-              "status":false
+            "D": {
+              "list": [
+                "D",
+                "执行 git commit--amend 进行修补提交。"
+              ],
+              "status": false
             }
           }
         },
         {
           "id": 15,
-          "title":"在gulp中，要获取源文件的函数是（）",
-          "fraction": 2.0 ,
-          "rightkey":"B",
-          "content":{
-            "A" : {
-              "list":["A","dest"],
+          "title": "在gulp中，要获取源文件的函数是（）",
+          "fraction": 2,
+          "rightkey": "B",
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "dest"
+              ],
               "status": false
             },
-            "B":{
-              "list":["B","Src"],
-              "status":true
+            "B": {
+              "list": [
+                "B",
+                "Src"
+              ],
+              "status": true
             },
-            "C":{
-              "list":["C","pipe"],
-              "status":false
+            "C": {
+              "list": [
+                "C",
+                "pipe"
+              ],
+              "status": false
             },
-            "D":{
-              "list":["D","server"],
-              "status":false
+            "D": {
+              "list": [
+                "D",
+                "server"
+              ],
+              "status": false
             }
           }
         },
         {
           "id": 16,
-          "title":"将es6代码转成es5所使用到的插件是",
-          "fraction": 2.0 ,
-          "rightkey":"A",
-          "content":{
-            "A" : {
-              "list":["A","gulp-babel"],
+          "title": "将es6代码转成es5所使用到的插件是",
+          "fraction": 2,
+          "rightkey": "A",
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "gulp-babel"
+              ],
               "status": true
             },
-            "B":{
-              "list":["B","gulp-sass"],
-              "status":false
+            "B": {
+              "list": [
+                "B",
+                "gulp-sass"
+              ],
+              "status": false
             },
-            "C":{
-              "list":["C","gulp-imagemin"],
-              "status":false
+            "C": {
+              "list": [
+                "C",
+                "gulp-imagemin"
+              ],
+              "status": false
             },
-            "D":{
-              "list":["D","gulp-less"],
-              "status":false
+            "D": {
+              "list": [
+                "D",
+                "gulp-less"
+              ],
+              "status": false
             }
           }
         },
         {
           "id": 17,
-          "title":"使用requireJs开发项目时，入口文件的引入需要使用下面的哪个属性完成？",
-          "fraction": 2.0 ,
-          "rightkey":"A",
-          "content":{
-            "A" : {
-              "list":["A","data-main"],
+          "title": "使用requireJs开发项目时，入口文件的引入需要使用下面的哪个属性完成？",
+          "fraction": 2,
+          "rightkey": "A",
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "data-main"
+              ],
               "status": true
             },
-            "B":{
-              "list":["B","data"],
-              "status":false
+            "B": {
+              "list": [
+                "B",
+                "data"
+              ],
+              "status": false
             },
-            "C":{
-              "list":["C","main"],
-              "status":false
+            "C": {
+              "list": [
+                "C",
+                "main"
+              ],
+              "status": false
             },
-            "D":{
-              "list":["D","import"],
-              "status":false
+            "D": {
+              "list": [
+                "D",
+                "import"
+              ],
+              "status": false
             }
           }
         },
         {
           "id": 18,
-          "title":"如何获取仓库中的内容？",
-          "fraction": 2.0 ,
-          "rightkey":"A",
-          "content":{
-            "A" : {
-              "list":["A","git clone 地址"],
+          "title": "如何获取仓库中的内容？",
+          "fraction": 2,
+          "rightkey": "A",
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "git clone 地址"
+              ],
               "status": true
             },
-            "B":{
-              "list":["B","git not 地址"],
-              "status":false
+            "B": {
+              "list": [
+                "B",
+                "git not 地址"
+              ],
+              "status": false
             },
-            "C":{
-              "list":["C","git none 地址"],
-              "status":false
+            "C": {
+              "list": [
+                "C",
+                "git none 地址"
+              ],
+              "status": false
             },
-            "D":{
-              "list":["D","none"],
-              "status":false
+            "D": {
+              "list": [
+                "D",
+                "none"
+              ],
+              "status": false
             }
           }
         },
         {
           "id": 19,
-          "title":"如何在本地创建仓库？",
-          "fraction": 2.0 ,
-          "rightkey":"C",
-          "content":{
-            "A" : {
-              "list":["A","git createR"],
+          "title": "如何在本地创建仓库？",
+          "fraction": 2,
+          "rightkey": "C",
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "git createR"
+              ],
               "status": false
             },
-            "B":{
-              "list":["B","git install-r"],
-              "status":false
+            "B": {
+              "list": [
+                "B",
+                "git install-r"
+              ],
+              "status": false
             },
-            "C":{
-              "list":["C","git init"],
-              "status":true
+            "C": {
+              "list": [
+                "C",
+                "git init"
+              ],
+              "status": true
             },
-            "D":{
-              "list":["D","git new-r"],
-              "status":false
+            "D": {
+              "list": [
+                "D",
+                "git new-r"
+              ],
+              "status": false
             }
           }
         },
         {
           "id": 20,
-          "title":"在HTML页面中，CSS样式的属性名为background-image对应的style对象的属性名是（）",
-          "fraction": 2.0 ,
-          "rightkey":"B",
-          "content":{
-            "A" : {
-              "list":["A","background-image"],
+          "title": "在HTML页面中，CSS样式的属性名为background-image对应的style对象的属性名是（）",
+          "fraction": 2,
+          "rightkey": "B",
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "background-image"
+              ],
               "status": false
             },
-            "B":{
-              "list":["B","backgroundlmage"],
-              "status":true
+            "B": {
+              "list": [
+                "B",
+                "backgroundlmage"
+              ],
+              "status": true
             },
-            "C":{
-              "list":["C","image"],
-              "status":false
+            "C": {
+              "list": [
+                "C",
+                "image"
+              ],
+              "status": false
             },
-            "D":{
-              "list":["D","background"],
-              "status":false
+            "D": {
+              "list": [
+                "D",
+                "background"
+              ],
+              "status": false
             }
           }
         }
       ],
-      "examinationmul":[
+      "examinationmul": [
         {
           "id": 1,
-          "title":"下面哪些属于数组的方法",
-          "fraction": 2.0 ,
-          "rightkey":["A","B","C","D"],
-          "content":{
-            "A" : {
-              "list":["A","sort()"],
+          "title": "下面哪些属于数组的方法",
+          "fraction": 2,
+          "rightkey": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "sort()"
+              ],
               "status": true
             },
-            "B":{
-              "list":["B","push()"],
-              "status":true
+            "B": {
+              "list": [
+                "B",
+                "push()"
+              ],
+              "status": true
             },
-            "C":{
-              "list":["C","indexOf()"],
-              "status":true
+            "C": {
+              "list": [
+                "C",
+                "indexOf()"
+              ],
+              "status": true
             },
-            "D":{
-              "list":["D","join()"],
-              "status":true
+            "D": {
+              "list": [
+                "D",
+                "join()"
+              ],
+              "status": true
             }
           }
         },
         {
           "id": 2,
-          "title":"以下哪条语句不会产生运行错误",
-          "fraction": 2.0 ,
-          "rightkey":["B","C","D"],
-          "content":{
-            "A" : {
-              "list":["A","var obj=()"],
+          "title": "以下哪条语句不会产生运行错误",
+          "fraction": 2,
+          "rightkey": [
+            "B",
+            "C",
+            "D"
+          ],
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "var obj=()"
+              ],
               "status": false
             },
-            "B":{
-              "list":["B","var obj=[]"],
-              "status":true
+            "B": {
+              "list": [
+                "B",
+                "var obj=[]"
+              ],
+              "status": true
             },
-            "C":{
-              "list":["C","var obj={}"],
-              "status":true
+            "C": {
+              "list": [
+                "C",
+                "var obj={}"
+              ],
+              "status": true
             },
-            "D":{
-              "list":["D","var obj=''"],
-              "status":true
+            "D": {
+              "list": [
+                "D",
+                "var obj=''"
+              ],
+              "status": true
             }
           }
         },
         {
           "id": 3,
-          "title":"案例代码如下：<form><div class='big'>大字体</div><div class='small'>小字体</div></form>请选取文本是'大字体'的div对象",
-          "fraction": 2.0 ,
-          "rightkey":["A","C","D"],
-          "content":{
-            "A" : {
-              "list":["A","$（'div.big'）"],
+          "title": "案例代码如下：<form><div class='big'>大字体</div><div class='small'>小字体</div></form>请选取文本是'大字体'的div对象",
+          "fraction": 2,
+          "rightkey": [
+            "A",
+            "C",
+            "D"
+          ],
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "$（'div.big'）"
+              ],
               "status": true
             },
-            "B":{
-              "list":["B","$（'div.big'）"],
-              "status":true
+            "B": {
+              "list": [
+                "B",
+                "$（'div.big'）"
+              ],
+              "status": true
             },
-            "C":{
-              "list":["C","$('div:contains('大字体')')"],
-              "status":true
+            "C": {
+              "list": [
+                "C",
+                "$('div:contains('大字体')')"
+              ],
+              "status": true
             },
-            "D":{
-              "list":["D","join()"],
-              "status":true
+            "D": {
+              "list": [
+                "D",
+                "join()"
+              ],
+              "status": true
             }
           }
         },
         {
           "id": 4,
-          "title":"当XMLHttpRequest 对象的状态发生改变时调用callBackMethod函数，下列不正确的是（）",
-          "fraction": 2.0 ,
-          "rightkey":["A","B","C"],
-          "content":{
-            "A" : {
-              "list":["A","xmlHttpRequest. callBackMethod=onreadystatechange;"],
+          "title": "当XMLHttpRequest 对象的状态发生改变时调用callBackMethod函数，下列不正确的是（）",
+          "fraction": 2,
+          "rightkey": [
+            "A",
+            "B",
+            "C"
+          ],
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "xmlHttpRequest. callBackMethod=onreadystatechange;"
+              ],
               "status": true
             },
-            "B":{
-              "list":["B","xmlHttpRequest. onreadystatechange(callBackMethod);"],
-              "status":true
+            "B": {
+              "list": [
+                "B",
+                "xmlHttpRequest. onreadystatechange(callBackMethod);"
+              ],
+              "status": true
             },
-            "C":{
-              "list":["C","xmlHttpRequest. onreadystatechange(new function0{ callBackMethod ]);"],
-              "status":true
+            "C": {
+              "list": [
+                "C",
+                "xmlHttpRequest. onreadystatechange(new function0{ callBackMethod ]);"
+              ],
+              "status": true
             },
-            "D":{
-              "list":["D","xmlHttpRequest. onreadystatechange=callBackMethod"],
-              "status":false
+            "D": {
+              "list": [
+                "D",
+                "xmlHttpRequest. onreadystatechange=callBackMethod"
+              ],
+              "status": false
             }
           }
         },
         {
           "id": 5,
-          "title":"jquery绑定事件的方法有",
-          "fraction": 2.0 ,
-          "rightkey":["B","C","D"],
-          "content":{
-            "A" : {
-              "list":["A","one"],
+          "title": "jquery绑定事件的方法有",
+          "fraction": 2,
+          "rightkey": [
+            "B",
+            "C",
+            "D"
+          ],
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "one"
+              ],
               "status": false
             },
-            "B":{
-              "list":["B","bind"],
-              "status":true
+            "B": {
+              "list": [
+                "B",
+                "bind"
+              ],
+              "status": true
             },
-            "C":{
-              "list":["C","addEvent"],
-              "status":true
+            "C": {
+              "list": [
+                "C",
+                "addEvent"
+              ],
+              "status": true
             },
-            "D":{
-              "list":["D","on"],
-              "status":true
+            "D": {
+              "list": [
+                "D",
+                "on"
+              ],
+              "status": true
             }
           }
         },
         {
           "id": 6,
-          "title":"jq中关于操作元素节点class属性的操作有",
-          "fraction": 2.0 ,
-          "rightkey":["A","B"],
-          "content":{
-            "A" : {
-              "list":["A","addClass"],
+          "title": "jq中关于操作元素节点class属性的操作有",
+          "fraction": 2,
+          "rightkey": [
+            "A",
+            "B"
+          ],
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "addClass"
+              ],
               "status": true
             },
-            "B":{
-              "list":["B","removeClass"],
-              "status":true
+            "B": {
+              "list": [
+                "B",
+                "removeClass"
+              ],
+              "status": true
             },
-            "C":{
-              "list":["C","attr('class','box')"],
-              "status":false
+            "C": {
+              "list": [
+                "C",
+                "attr('class','box')"
+              ],
+              "status": false
             },
-            "D":{
-              "list":["D","setClass"],
-              "status":false
+            "D": {
+              "list": [
+                "D",
+                "setClass"
+              ],
+              "status": false
             }
           }
         },
         {
           "id": 7,
-          "title":"sass中混合和函数的不同点",
-          "fraction": 2.0 ,
-          "rightkey":["B","C"],
-          "content":{
-            "A" : {
-              "list":["A","混合有返回值"],
+          "title": "sass中混合和函数的不同点",
+          "fraction": 2,
+          "rightkey": [
+            "B",
+            "C"
+          ],
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "混合有返回值"
+              ],
               "status": false
             },
-            "B":{
-              "list":["B","函数有返回值"],
-              "status":true
+            "B": {
+              "list": [
+                "B",
+                "函数有返回值"
+              ],
+              "status": true
             },
-            "C":{
-              "list":["C","混合的结果是一段代码"],
-              "status":true
+            "C": {
+              "list": [
+                "C",
+                "混合的结果是一段代码"
+              ],
+              "status": true
             },
-            "D":{
-              "list":["D","没有不同点"],
-              "status":false
+            "D": {
+              "list": [
+                "D",
+                "没有不同点"
+              ],
+              "status": false
             }
           }
         },
         {
           "id": 8,
-          "title":"以下可以绑定jquery事件的方法有",
-          "fraction": 2.0 ,
-          "rightkey":["A","B","C","D"],
-          "content":{
-            "A" : {
-              "list":["A","on"],
+          "title": "以下可以绑定jquery事件的方法有",
+          "fraction": 2,
+          "rightkey": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "on"
+              ],
               "status": true
             },
-            "B":{
-              "list":["B","bind"],
-              "status":true
+            "B": {
+              "list": [
+                "B",
+                "bind"
+              ],
+              "status": true
             },
-            "C":{
-              "list":["C","click"],
-              "status":true
+            "C": {
+              "list": [
+                "C",
+                "click"
+              ],
+              "status": true
             },
-            "D":{
-              "list":["D","hover"],
-              "status":true
+            "D": {
+              "list": [
+                "D",
+                "hover"
+              ],
+              "status": true
             }
           }
         },
         {
           "id": 9,
-          "title":"哪些是git常见操作命令",
-          "fraction": 2.0 ,
-          "rightkey":["B","C","D"],
-          "content":{
-            "A" : {
-              "list":["A","git add"],
+          "title": "哪些是git常见操作命令",
+          "fraction": 2,
+          "rightkey": [
+            "B",
+            "C",
+            "D"
+          ],
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "git add"
+              ],
               "status": true
             },
-            "B":{
-              "list":["B","cp"],
-              "status":false
+            "B": {
+              "list": [
+                "B",
+                "cp"
+              ],
+              "status": false
             },
-            "C":{
-              "list":["C","git commit"],
-              "status":true
+            "C": {
+              "list": [
+                "C",
+                "git commit"
+              ],
+              "status": true
             },
-            "D":{
-              "list":["D","dir"],
-              "status":false
+            "D": {
+              "list": [
+                "D",
+                "dir"
+              ],
+              "status": false
             }
           }
         },
         {
           "id": 10,
-          "title":"下面哪些是jquery中的操作方法？",
-          "fraction": 2.0 ,
-          "rightkey":["A","B","C","D"],
-          "content":{
-            "A" : {
-              "list":["A","css()"],
+          "title": "下面哪些是jquery中的操作方法？",
+          "fraction": 2,
+          "rightkey": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "content": {
+            "A": {
+              "list": [
+                "A",
+                "css()"
+              ],
               "status": true
             },
-            "B":{
-              "list":["B","addClass()"],
-              "status":true
+            "B": {
+              "list": [
+                "B",
+                "addClass()"
+              ],
+              "status": true
             },
-            "C":{
-              "list":["C","attr()"],
-              "status":true
+            "C": {
+              "list": [
+                "C",
+                "attr()"
+              ],
+              "status": true
             },
-            "D":{
-              "list":["D","append()"],
-              "status":true
+            "D": {
+              "list": [
+                "D",
+                "append()"
+              ],
+              "status": true
             }
           }
         }
       ],
-      "examinationbla":[
+      "examinationbla": [
         {
-          "id":1,
-          "title":"已知id为box，使用jquery如何获取到该元素",
-          "fraction": 2.0 ,
-          "rightkey":"$('#box')"
+          "id": 1,
+          "title": "已知id为box，使用jquery如何获取到该元素",
+          "fraction": 2,
+          "rightkey": "$('#box')"
         },
         {
-          "id":2,
-          "title":"git中向远程服务器推送代码的命令git.",
-          "fraction": 2.0 ,
-          "rightkey":"push"
+          "id": 2,
+          "title": "git中向远程服务器推送代码的命令git.",
+          "fraction": 2,
+          "rightkey": "push"
         },
         {
-          "id":3,
-          "title":"gulp设置任务使用",
-          "fraction": 2.0 ,
-          "rightkey":"git.task()"
+          "id": 3,
+          "title": "gulp设置任务使用",
+          "fraction": 2,
+          "rightkey": "git.task()"
         },
         {
-          "id":4,
-          "title":"用git进行版本管理时，查看所有版本的命令是",
-          "fraction": 2.0 ,
-          "rightkey":"git log"
+          "id": 4,
+          "title": "用git进行版本管理时，查看所有版本的命令是",
+          "fraction": 2,
+          "rightkey": "git log"
         },
         {
-          "id":5,
-          "title":"it中表示提交的命令是什么命令完成",
-          "fraction": 2.0 ,
-          "rightkey":"git commit"
+          "id": 5,
+          "title": "it中表示提交的命令是什么命令完成",
+          "fraction": 2,
+          "rightkey": "git commit"
         }
       ]
     }
