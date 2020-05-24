@@ -122,16 +122,17 @@ export default class Modification extends Component {
           <div className="Mod_con">
             <div className="Con_top">
               <div className="Con_first">
-                <Form.Item name="username" label="学生姓名">
+                <Form.Item name="username" label="学生姓名" style={{marginLeft:'120px',color:'red'}}>
                   <Input
                     placeholder={username}
                     disabled
                     style={{ color: "#999" }}
                   />
                 </Form.Item>
-                <span className="sex">性别：</span>
+                <span className="sex" style={{marginLeft:'148px'}}>性别：</span>
                 <Form.Item
                   name="sex"
+                  style={{width:'100px',marginLeft:'188px',marginTop:'-24px'}}
                   rules={[
                     {
                       required: true,
@@ -149,6 +150,7 @@ export default class Modification extends Component {
                 <span>手机号码：</span>
                 <Form.Item
                   name="CellPhoneNumber"
+                  style={{marginLeft:'68px',marginTop:'-26px'}}
                   rules={[
                     {
                       required: true,
@@ -163,6 +165,7 @@ export default class Modification extends Component {
                 <span>QQ：</span>
                 <Form.Item
                   name="QQ"
+                  style={{marginLeft:'34px',marginTop:'-24px'}}
                   rules={[
                     {
                       required: true,
@@ -177,6 +180,7 @@ export default class Modification extends Component {
                 <span>身份证号码：</span>
                 <Form.Item
                   name="IdentityCard"
+                  style={{marginLeft:'82px',marginTop:'-24px'}}
                   rules={[
                     {
                       required: true,
@@ -193,6 +197,7 @@ export default class Modification extends Component {
                 <span>学校省份：</span>
                 <Form.Item
                   name="provinces"
+                  style={{marginLeft:'68px',marginTop:'-24px'}}
                   rules={[
                     {
                       required: true,
@@ -213,6 +218,7 @@ export default class Modification extends Component {
                 <span className="sch_name">大学名称：</span>
                 <Form.Item
                   name="schoolname"
+                  style={{marginLeft:'68px',marginTop:'-25px'}}
                   rules={[
                     {
                       required: true,
@@ -233,6 +239,7 @@ export default class Modification extends Component {
                 <span className="sch_major">学院专业：</span>
                 <Form.Item
                   name="specialty"
+                  style={{marginLeft:'68px',marginTop:'-25px',width:'200px'}}
                   rules={[
                     {
                       required: true,
@@ -247,6 +254,7 @@ export default class Modification extends Component {
                 <span>在校状态：</span>
                 <Form.Item
                   name="status"
+                  style={{marginLeft:'68px',marginTop:'-25px'}}
                   rules={[
                     {
                       required: true,
@@ -273,6 +281,7 @@ export default class Modification extends Component {
                 <span className="sch_edu">学历：</span>
                 <Form.Item
                   name="education"
+                  style={{marginLeft:'68px',marginTop:'-25px'}}
                   rules={[
                     {
                       required: true,
@@ -298,6 +307,7 @@ export default class Modification extends Component {
                 <span>专业类型：</span>
                 <Form.Item
                   name="major"
+                  style={{marginLeft:'68px',marginTop:'-25px'}}
                   rules={[
                     {
                       required: true,
@@ -317,6 +327,7 @@ export default class Modification extends Component {
                 <span className="sch_exp">开发经验：</span>
                 <Form.Item
                   name="experience"
+                  style={{marginLeft:'68px',marginTop:'-25px'}}
                   rules={[
                     {
                       required: true,
@@ -332,6 +343,7 @@ export default class Modification extends Component {
                 <span className="sch_com">使用电脑：</span>
                 <Form.Item
                   name="computer"
+                  style={{marginLeft:'68px',marginTop:'-25px'}}
                   rules={[
                     {
                       required: true,
@@ -349,6 +361,7 @@ export default class Modification extends Component {
                 <span>学员所在省份：</span>
                 <Form.Item
                   name="StudentsProvinces"
+                  style={{marginLeft:'95px',marginTop:'-25px'}}
                   rules={[
                     {
                       required: true,
@@ -366,6 +379,7 @@ export default class Modification extends Component {
                 <span className="city">所在城市：</span>
                 <Form.Item
                   name="city"
+                  style={{marginLeft:'95px',marginTop:'-25px'}}
                   rules={[
                     {
                       required: true,
@@ -384,6 +398,7 @@ export default class Modification extends Component {
                 <span>紧急联系人：</span>
                 <Form.Item
                   name="contacts"
+                  style={{marginLeft:'80px',marginTop:'-25px'}}
                   rules={[
                     {
                       required: true,
@@ -396,6 +411,7 @@ export default class Modification extends Component {
                 <span className="rel">关系：</span>
                 <Form.Item
                   name="relation"
+                  style={{marginLeft:'80px',marginTop:'-25px'}}
                   rules={[
                     {
                       required: true,
@@ -408,6 +424,7 @@ export default class Modification extends Component {
                 <span className="tel">联系电话：</span>
                 <Form.Item
                   name="phone"
+                  style={{marginLeft:'80px',marginTop:'-25px'}}
                   rules={[
                     {
                       required: true,
@@ -422,6 +439,7 @@ export default class Modification extends Component {
                 <span>住宿详细地址：</span>
                 <Form.Item
                   name="site"
+                  style={{marginLeft:'95px',marginTop:'-25px'}}
                   rules={[
                     {
                       required: true,
@@ -434,6 +452,7 @@ export default class Modification extends Component {
               </div>
               <Form.Item
                 name="HeadPortrait"
+                style={{marginLeft:'80%'}}
                 rules={[
                   {
                     required: true,

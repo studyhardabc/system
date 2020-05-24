@@ -59,38 +59,29 @@
 }
 .Con_card{
   margin-left: 107px;
+  /* margin-top: 8px; */
+}
+.Con_card span{
+  margin-top: -6px;
 }
 .Con_card input{
   width: 400px;
 }
 .Con_sch{
   margin-left: 120px;
-  margin-top: 6px;
+  margin-top: 76px;
   margin-bottom: 20px;
-}
-.sch_name{
-  margin-left: 20px;
-  /* margin-right: 20px; */
-}
-.sch_major{
-  margin-left: 20px;
 }
 .sch_state{
   margin-left: 120px;
   margin-bottom: 20px;
 }
 .sch_edu{
-  margin-left: 55px;
+  margin-left: 28px;
 }
 .sch_2{
   margin-left: 120px;
   margin-bottom: 20px;
-}
-.sch_exp{
-  margin-left: 27px;
-}
-.sch_com{
-  margin-left: 85px;
 }
 .sch_city{
   margin-left: 93px;
@@ -101,17 +92,17 @@
   height: 27px;
 }
 .city{
-  margin-left: 18px;
+  margin-left: 28px;
 }
 .sch_tac{
   margin-left: 107px;
   margin-bottom: 20px;
 }
 .rel{
-  margin-left: 45px;
+  margin-left: 43px;
 }
 .tel{
-  margin-left: 22px;
+  margin-left: 15px;
 }
 .adress{
   margin-left: 93px;
@@ -131,4 +122,3 @@
 .Mod_btn2{
   margin-left: 100px;
 }
-
