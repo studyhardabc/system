@@ -31,29 +31,24 @@ export default class Examination extends Component {
                     <p>一、单选题（共20题，每题2分）</p>
           {Object.keys(this.state.data).length > 0
             ? this.state.data.examinationsin.map((item) => {
+                let arr = Object.values(item.content);
+                // console.log(arr);
                 return (
                   <div className="exa_box" key={item.id}>
                                 <span>{item.id}.</span>
-                                <span>产生当前日期的方法是</span>
+                                <span>{item.title}</span>
                                 
                     <div className="exa_radio">
-                                    
-                      <input type="radio" name="1" />
-                                    A&nbsp;&nbsp;Now();               
-                      <br />
-                                    
-                      <input type="radio" name="1" />
-                                    B&nbsp;&nbsp;new Data();               
-                      <br />
-                                    
-                      <input type="radio" name="1" />
-                                    C&nbsp;&nbsp;new Date();               
-                      <br />
-                                    
-                      <input type="radio" name="1" />
-                                    D&nbsp;&nbsp;new Now();               
-                      <br />
-                                  
+                      {arr.map((arrItem) => {
+                        return (
+                          <span key={arrItem.list[0]}>
+                            <input type="radio" name={item.id} />
+                                          {arrItem.list[0]}&nbsp;&nbsp;{arrItem.list[1]};
+                                          
+                            <br />
+                          </span>
+                        );
+                      })}
                     </div>
                               
                   </div>
@@ -64,43 +59,43 @@ export default class Examination extends Component {
           <p className="exa_much">
             二、多选题（不定项选择）（共10题，每题2分）
           </p>
-                    
-          <div className="exa_box1">
-                        <span>1.</span>
-                        <span>下面哪些属于数组的方法</span>
-                        
-            <div className="exa_checkout">
-                            
-              <input type="checkbox" />
-                            A&nbsp;&nbsp;var obj=();               
-              <br />
-                            
-              <input type="checkbox" />
-                            B&nbsp;&nbsp;var obj=[];               
-              <br />
-                            
-              <input type="checkbox" />
-                            C&nbsp;&nbsp;var obj={};<br />
-                            
-              <input type="checkbox" />
-                            D&nbsp;&nbsp;var obj="";               
-              <br />
-                          
-            </div>
-                      
-          </div>
-                    <p className="exa_bla">三、填空题（共5题，每题2分）</p>
-                    
-          <div className="exa_box2">
-                        <span>1.</span>
-                        <span>已知id为box，使用jquery如何获取到该元素</span>
-                        
-            <input />
-                      
-          </div>
-                  
+          {Object.keys(this.state.data).length > 0
+            ? this.state.data.examinationmul.map((item) => {
+                let arr2 = Object.values(item.content);
+                return (
+                  <div className="exa_box1" key={item.id}>
+                                <span>{item.id}.</span>
+                                <span>{item.title}</span>
+                                
+                    <div className="exa_checkout">
+                      {arr2.map((arr2Item) => {
+                        return (
+                          <span key={arr2Item.list[0]}>
+                            <input type="checkbox" />
+                                          {arr2Item.list[0]}
+                            &nbsp;&nbsp;{arr2Item.list[1]};               
+                            <br />
+                          </span>
+                        );
+                      })}
+                    </div>
+                  </div>
+                );
+              })
+            : null}
+                         <p className="exa_bla">三、填空题（共5题，每题2分）</p>
+          {Object.keys(this.state.data).length > 0
+            ? this.state.data.examinationbla.map((item) => {
+                return (
+                  <div className="exa_box2" key={item.id}>
+                                <span>{item.id}.</span>
+                                <span>{item.title}</span>
+                    <input type="text" />
+                  </div>
+                );
+              })
+            : null}
         </div>
-              
       </div>
     );
   }

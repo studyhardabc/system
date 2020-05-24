@@ -395,19 +395,19 @@
           "rightkey":"C",
           "content":{
             "A" : {
-              "list":["A,Now()"],
+              "list":["A","Now()"],
               "status": false
             },
             "B":{
-              "list":["B,new Data()"],
+              "list":["B","new Data()"],
               "status":false
             },
             "C":{
-              "list":["C,new Date()"],
+              "list":["C","new Date()"],
               "status":true
             },
             "D":{
-              "list":["D,new Now()"],
+              "list":["D","new Now()"],
               "status":false
             }
           }
@@ -419,19 +419,19 @@
           "rightkey":"A",
           "content":{
             "A" : {
-              "list":["A,status"],
+              "list":["A","status"],
               "status": true
             },
             "B":{
-              "list":["B,screen"],
+              "list":["B","screen"],
               "status":false
             },
             "C":{
-              "list":["C,history"],
+              "list":["C","history"],
               "status":false
             },
             "D":{
-              "list":["D,document"],
+              "list":["D","document"],
               "status":false
             }
           }
@@ -443,19 +443,19 @@
           "rightkey":"D",
           "content":{
             "A" : {
-              "list":["A,sort()"],
+              "list":["A","sort()"],
               "status": false
             },
             "B":{
-              "list":["B,push()"],
+              "list":["B","push()"],
               "status":false
             },
             "C":{
-              "list":["C,join()"],
+              "list":["C","join()"],
               "status":false
             },
             "D":{
-              "list":["D,indexOf()"],
+              "list":["D","indexOf()"],
               "status":true
             }
           }
@@ -467,19 +467,19 @@
           "rightkey":"D",
           "content":{
             "A" : {
-              "list":["A,$('#user')"],
+              "list":["A","$('#user')"],
               "status": false
             },
             "B":{
-              "list":["B,('#'+'user')"],
+              "list":["B","('#'+'user')"],
               "status":false
             },
             "C":{
-              "list":["C,$('div[id=user]')"],
+              "list":["C","$('div[id=user]')"],
               "status":false
             },
             "D":{
-              "list":["D,$('div[id==user]')"],
+              "list":["D","$('div[id==user]')"],
               "status":true
             }
           }
@@ -491,19 +491,19 @@
           "rightkey":"C",
           "content":{
             "A" : {
-              "list":["A,{a:[1],b:1}"],
+              "list":["A","{a:[1],b:1}"],
               "status": false
             },
             "B":{
-              "list":["B,{a:[1,2],b:1,c:2}"],
+              "list":["B","{a:[1,2],b:1,c:2}"],
               "status":false
             },
             "C":{
-              "list":["C,{a:[2],b:1,c:2}"],
+              "list":["C","{a:[2],b:1,c:2}"],
               "status":true
             },
             "D":{
-              "list":["D,{a:[2],c:2})"],
+              "list":["D","{a:[2],c:2})"],
               "status":false
             }
           }
@@ -515,19 +515,19 @@
           "rightkey":"A",
           "content":{
             "A" : {
-              "list":["A,10"],
+              "list":["A","10"],
               "status": true
             },
             "B":{
-              "list":["B,11"],
+              "list":["B","11"],
               "status":false
             },
             "C":{
-              "list":["C,函数体"],
+              "list":["C","函数体"],
               "status":false
             },
             "D":{
-              "list":["D,报错"],
+              "list":["D","报错"],
               "status":false
             }
           }
@@ -539,19 +539,19 @@
           "rightkey":"B",
           "content":{
             "A" : {
-              "list":["A,函数"],
+              "list":["A","函数"],
               "status": false
             },
             "B":{
-              "list":["B,类"],
+              "list":["B","类"],
               "status":true
             },
             "C":{
-              "list":["C,递归"],
+              "list":["C","递归"],
               "status":false
             },
             "D":{
-              "list":["D,过程"],
+              "list":["D","过程"],
               "status":false
             }
           }
@@ -563,19 +563,19 @@
           "rightkey":"C",
           "content":{
             "A" : {
-              "list":["A,停止动画执行"],
+              "list":["A","停止动画执行"],
               "status": false
             },
             "B":{
-              "list":["B,暂停动画执行"],
+              "list":["B","暂停动画执行"],
               "status":false
             },
             "C":{
-              "list":["C,延迟动画执行"],
+              "list":["C","延迟动画执行"],
               "status":true
             },
             "D":{
-              "list":["D,开始动画执行"],
+              "list":["D","开始动画执行"],
               "status":false
             }
           }
@@ -587,19 +587,19 @@
           "rightkey":"A",
           "content":{
             "A" : {
-              "list":["A,开放的"],
+              "list":["A","开放的"],
               "status": true
             },
             "B":{
-              "list":["B,封闭的"],
+              "list":["B","封闭的"],
               "status":false
             },
             "C":{
-              "list":["C,需购买的"],
+              "list":["C","需购买的"],
               "status":false
             },
             "D":{
-              "list":["D,完全不可见的"],
+              "list":["D","完全不可见的"],
               "status":false
             }
           }
@@ -611,19 +611,19 @@
           "rightkey":"A",
           "content":{
             "A" : {
-              "list":["A,200"],
+              "list":["A","200"],
               "status": true
             },
             "B":{
-              "list":["B,301"],
+              "list":["B","301"],
               "status":false
             },
             "C":{
-              "list":["C,500"],
+              "list":["C","500"],
               "status":false
             },
             "D":{
-              "list":["D,404"],
+              "list":["D","404"],
               "status":false
             }
           }
@@ -635,19 +635,19 @@
           "rightkey":"C",
           "content":{
             "A" : {
-              "list":["A,alert(table instanceof Object)"],
+              "list":["A","alert(table instanceof Object)"],
               "status": false
             },
             "B":{
-              "list":["B,alert(desk instanceof Box);"],
+              "list":["B","alert(desk instanceof Box);"],
               "status":false
             },
             "C":{
-              "list":["C,alert(Desk instanceof Box);"],
+              "list":["C","alert(Desk instanceof Box);"],
               "status":true
             },
             "D":{
-              "list":["D,alert(desk instanceof Desk);"],
+              "list":["D","alert(desk instanceof Desk);"],
               "status":false
             }
           }
@@ -659,19 +659,19 @@
           "rightkey":"B",
           "content":{
             "A" : {
-              "list":["A,编译JS"],
+              "list":["A","编译JS"],
               "status": false
             },
             "B":{
-              "list":["B,编译SCSS"],
+              "list":["B","编译SCSS"],
               "status":true
             },
             "C":{
-              "list":["C,编译HTML"],
+              "list":["C","编译HTML"],
               "status":false
             },
             "D":{
-              "list":["D,编译图片"],
+              "list":["D","编译图片"],
               "status":false
             }
           }
@@ -683,19 +683,19 @@
           "rightkey":"A",
           "content":{
             "A" : {
-              "list":["A,attr()"],
+              "list":["A","attr()"],
               "status": true
             },
             "B":{
-              "list":["B,push()"],
+              "list":["B","push()"],
               "status":false
             },
             "C":{
-              "list":["C,map()"],
+              "list":["C","map()"],
               "status":false
             },
             "D":{
-              "list":["D,set()"],
+              "list":["D","set()"],
               "status":false
             }
           }
@@ -707,19 +707,19 @@
           "rightkey":"A",
           "content":{
             "A" : {
-              "list":["A,执行git status 查看状态，再执行git add命令选择要提交的文件，然后提交。"],
+              "list":["A","执行git status 查看状态，再执行git add命令选择要提交的文件，然后提交。"],
               "status": true
             },
             "B":{
-              "list":["B,执行git commit--allow-empty，允许空提交。"],
+              "list":["B","执行git commit--allow-empty，允许空提交。"],
               "status":false
             },
             "C":{
-              "list":["C,执行git commit-a，提交所有改动。"],
+              "list":["C","执行git commit-a，提交所有改动。"],
               "status":false
             },
             "D":{
-              "list":["D,执行 git commit--amend 进行修补提交。"],
+              "list":["D","执行 git commit--amend 进行修补提交。"],
               "status":false
             }
           }
@@ -731,19 +731,19 @@
           "rightkey":"B",
           "content":{
             "A" : {
-              "list":["A,dest"],
+              "list":["A","dest"],
               "status": false
             },
             "B":{
-              "list":["B,Src"],
+              "list":["B","Src"],
               "status":true
             },
             "C":{
-              "list":["C,pipe"],
+              "list":["C","pipe"],
               "status":false
             },
             "D":{
-              "list":["D,server"],
+              "list":["D","server"],
               "status":false
             }
           }
@@ -755,19 +755,19 @@
           "rightkey":"A",
           "content":{
             "A" : {
-              "list":["A,gulp-babel"],
+              "list":["A","gulp-babel"],
               "status": true
             },
             "B":{
-              "list":["B,gulp-sass"],
+              "list":["B","gulp-sass"],
               "status":false
             },
             "C":{
-              "list":["C,gulp-imagemin"],
+              "list":["C","gulp-imagemin"],
               "status":false
             },
             "D":{
-              "list":["D,gulp-less"],
+              "list":["D","gulp-less"],
               "status":false
             }
           }
@@ -779,19 +779,19 @@
           "rightkey":"A",
           "content":{
             "A" : {
-              "list":["A,data-main"],
+              "list":["A","data-main"],
               "status": true
             },
             "B":{
-              "list":["B,data"],
+              "list":["B","data"],
               "status":false
             },
             "C":{
-              "list":["C,main"],
+              "list":["C","main"],
               "status":false
             },
             "D":{
-              "list":["D,import"],
+              "list":["D","import"],
               "status":false
             }
           }
@@ -803,19 +803,19 @@
           "rightkey":"A",
           "content":{
             "A" : {
-              "list":["A,git clone 地址"],
+              "list":["A","git clone 地址"],
               "status": true
             },
             "B":{
-              "list":["B,git not 地址"],
+              "list":["B","git not 地址"],
               "status":false
             },
             "C":{
-              "list":["C,git none 地址"],
+              "list":["C","git none 地址"],
               "status":false
             },
             "D":{
-              "list":["D,none"],
+              "list":["D","none"],
               "status":false
             }
           }
@@ -827,19 +827,19 @@
           "rightkey":"C",
           "content":{
             "A" : {
-              "list":["A,git createR"],
+              "list":["A","git createR"],
               "status": false
             },
             "B":{
-              "list":["B,git install-r"],
+              "list":["B","git install-r"],
               "status":false
             },
             "C":{
-              "list":["C,git init"],
+              "list":["C","git init"],
               "status":true
             },
             "D":{
-              "list":["D,git new-r"],
+              "list":["D","git new-r"],
               "status":false
             }
           }
@@ -851,25 +851,25 @@
           "rightkey":"B",
           "content":{
             "A" : {
-              "list":["A,background-image"],
+              "list":["A","background-image"],
               "status": false
             },
             "B":{
-              "list":["B,backgroundlmage"],
+              "list":["B","backgroundlmage"],
               "status":true
             },
             "C":{
-              "list":["C,image"],
+              "list":["C","image"],
               "status":false
             },
             "D":{
-              "list":["D,background"],
+              "list":["D","background"],
               "status":false
             }
           }
         }
       ],
-      "examination-mul":[
+      "examinationmul":[
         {
           "id": 1,
           "title":"下面哪些属于数组的方法",
@@ -877,19 +877,19 @@
           "rightkey":["A","B","C","D"],
           "content":{
             "A" : {
-              "list":["A,sort()"],
+              "list":["A","sort()"],
               "status": true
             },
             "B":{
-              "list":["B,push()"],
+              "list":["B","push()"],
               "status":true
             },
             "C":{
-              "list":["C,indexOf()"],
+              "list":["C","indexOf()"],
               "status":true
             },
             "D":{
-              "list":["D,join()"],
+              "list":["D","join()"],
               "status":true
             }
           }
@@ -901,19 +901,19 @@
           "rightkey":["B","C","D"],
           "content":{
             "A" : {
-              "list":["A,var obj=()"],
+              "list":["A","var obj=()"],
               "status": false
             },
             "B":{
-              "list":["B,var obj=[]"],
+              "list":["B","var obj=[]"],
               "status":true
             },
             "C":{
-              "list":["C,var obj={}"],
+              "list":["C","var obj={}"],
               "status":true
             },
             "D":{
-              "list":["D,var obj=''"],
+              "list":["D","var obj=''"],
               "status":true
             }
           }
@@ -925,19 +925,19 @@
           "rightkey":["A","C","D"],
           "content":{
             "A" : {
-              "list":["A,$（'div.big'）"],
+              "list":["A","$（'div.big'）"],
               "status": true
             },
             "B":{
-              "list":["B,$（'div.big'）"],
+              "list":["B","$（'div.big'）"],
               "status":true
             },
             "C":{
-              "list":["C,$('div:contains('大字体')')"],
+              "list":["C","$('div:contains('大字体')')"],
               "status":true
             },
             "D":{
-              "list":["D,join()"],
+              "list":["D","join()"],
               "status":true
             }
           }
@@ -949,19 +949,19 @@
           "rightkey":["A","B","C"],
           "content":{
             "A" : {
-              "list":["A,xmlHttpRequest. callBackMethod=onreadystatechange;"],
+              "list":["A","xmlHttpRequest. callBackMethod=onreadystatechange;"],
               "status": true
             },
             "B":{
-              "list":["B,xmlHttpRequest. onreadystatechange(callBackMethod);"],
+              "list":["B","xmlHttpRequest. onreadystatechange(callBackMethod);"],
               "status":true
             },
             "C":{
-              "list":["C,xmlHttpRequest. onreadystatechange(new function0{ callBackMethod ]);"],
+              "list":["C","xmlHttpRequest. onreadystatechange(new function0{ callBackMethod ]);"],
               "status":true
             },
             "D":{
-              "list":["D,xmlHttpRequest. onreadystatechange=callBackMethod"],
+              "list":["D","xmlHttpRequest. onreadystatechange=callBackMethod"],
               "status":false
             }
           }
@@ -973,19 +973,19 @@
           "rightkey":["B","C","D"],
           "content":{
             "A" : {
-              "list":["A,one"],
+              "list":["A","one"],
               "status": false
             },
             "B":{
-              "list":["B,bind"],
+              "list":["B","bind"],
               "status":true
             },
             "C":{
-              "list":["C,addEvent"],
+              "list":["C","addEvent"],
               "status":true
             },
             "D":{
-              "list":["D,on"],
+              "list":["D","on"],
               "status":true
             }
           }
@@ -997,19 +997,19 @@
           "rightkey":["A","B"],
           "content":{
             "A" : {
-              "list":["A,addClass"],
+              "list":["A","addClass"],
               "status": true
             },
             "B":{
-              "list":["B,removeClass"],
+              "list":["B","removeClass"],
               "status":true
             },
             "C":{
-              "list":["C,attr('class','box')"],
+              "list":["C","attr('class','box')"],
               "status":false
             },
             "D":{
-              "list":["D,setClass"],
+              "list":["D","setClass"],
               "status":false
             }
           }
@@ -1021,19 +1021,19 @@
           "rightkey":["B","C"],
           "content":{
             "A" : {
-              "list":["A,混合有返回值"],
+              "list":["A","混合有返回值"],
               "status": false
             },
             "B":{
-              "list":["B,函数有返回值"],
+              "list":["B","函数有返回值"],
               "status":true
             },
             "C":{
-              "list":["C,混合的结果是一段代码"],
+              "list":["C","混合的结果是一段代码"],
               "status":true
             },
             "D":{
-              "list":["D,没有不同点"],
+              "list":["D","没有不同点"],
               "status":false
             }
           }
@@ -1045,19 +1045,19 @@
           "rightkey":["A","B","C","D"],
           "content":{
             "A" : {
-              "list":["A,on"],
+              "list":["A","on"],
               "status": true
             },
             "B":{
-              "list":["B,bind"],
+              "list":["B","bind"],
               "status":true
             },
             "C":{
-              "list":["C,click"],
+              "list":["C","click"],
               "status":true
             },
             "D":{
-              "list":["D,hover"],
+              "list":["D","hover"],
               "status":true
             }
           }
@@ -1069,19 +1069,19 @@
           "rightkey":["B","C","D"],
           "content":{
             "A" : {
-              "list":["A,git add"],
+              "list":["A","git add"],
               "status": true
             },
             "B":{
-              "list":["B,cp"],
+              "list":["B","cp"],
               "status":false
             },
             "C":{
-              "list":["C,git commit"],
+              "list":["C","git commit"],
               "status":true
             },
             "D":{
-              "list":["D,dir"],
+              "list":["D","dir"],
               "status":false
             }
           }
@@ -1093,25 +1093,25 @@
           "rightkey":["A","B","C","D"],
           "content":{
             "A" : {
-              "list":["A,css()"],
+              "list":["A","css()"],
               "status": true
             },
             "B":{
-              "list":["B,addClass()"],
+              "list":["B","addClass()"],
               "status":true
             },
             "C":{
-              "list":["C,attr()"],
+              "list":["C","attr()"],
               "status":true
             },
             "D":{
-              "list":["D,append()"],
+              "list":["D","append()"],
               "status":true
             }
           }
         }
       ],
-      "examination-bla":[
+      "examinationbla":[
         {
           "id":1,
           "title":"已知id为box，使用jquery如何获取到该元素",
