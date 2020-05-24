@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 import axios from "axios";
-import { Select, Button, Form, Input } from "antd";
-import { CheckOutlined, ReloadOutlined } from "@ant-design/icons";
+import { Select, Button, Form, Input, Upload, message } from "antd";
+import {
+  CheckOutlined,
+  ReloadOutlined,
+  UploadOutlined,
+} from "@ant-design/icons";
 import "./index.css";
 const { Option } = Select;
 export default class Modification extends Component {
@@ -96,10 +100,18 @@ export default class Modification extends Component {
       city: this.cityData[this.provinceData[0]],
       secondCities: this.cityData[this.provinceData[0][0]],
     },
+    fileList: [],
+
   };
   render() {
     const { username } = JSON.parse(localStorage.getItem("token"));
     const { cities, cityState } = this.state;
+    const props = {
+      action: "https://www.mocky.io/v2/5cc8019d300000980a055e76",
+      listType: "picture",
+      defaultFileList: [...this.state.fileList],
+    };
+
     return (
       <Form onFinish={this.fn1} ref="Form">
         <div className="Mod_box">
@@ -110,11 +122,12 @@ export default class Modification extends Component {
           <div className="Mod_con">
             <div className="Con_top">
               <div className="Con_first">
-                <Form.Item
-                  name="username"
-                  label='学生姓名'
-                >
-                  <Input placeholder={username} disabled style={{ color: "#999" }} />
+                <Form.Item name="username" label="学生姓名">
+                  <Input
+                    placeholder={username}
+                    disabled
+                    style={{ color: "#999" }}
+                  />
                 </Form.Item>
                 <span className="sex">性别：</span>
                 <Form.Item
@@ -419,6 +432,22 @@ export default class Modification extends Component {
                   <Input />
                 </Form.Item>
               </div>
+              <Form.Item
+                name="HeadPortrait"
+                rules={[
+                  {
+                    required: true,
+                    message: "头像不能为空",
+                  },
+                ]}
+              >
+                {/* <img src={this.state.fileList}></img> */}
+                <Upload {...props}>
+                  <Button>
+                    <UploadOutlined /> 头像
+                  </Button>
+                </Upload>
+              </Form.Item>
             </div>
             <div className="Mod_bottom">
               <Button
@@ -444,9 +473,21 @@ export default class Modification extends Component {
   }
 
   componentDidMount() {
-      const { username } = JSON.parse(localStorage.getItem("token"));
-      axios.get(`http://localhost:3002/modification?username=${username}`).then(res => {
-        let obj = res.data[0]
+    const { username } = JSON.parse(localStorage.getItem("token"));
+    axios
+      .get(`http://localhost:3002/modification?username=${username}`)
+      .then((res) => {
+        let obj = res.data[0];
+        // this.setState({
+        //   fileList: [{
+        //     uid: obj.HeadPortrait.file.uid,
+        //     name: obj.HeadPortrait.file.name,
+        //     status: obj.HeadPortrait.file.status,
+        //     url: obj.HeadPortrait.file.response.url,
+        //     thumbUrl: obj.HeadPortrait.file.thumbUrl
+        //   }]
+        // })
+
         if (res.data.length > 0) {
           this.refs.Form.setFieldsValue({
             username,
@@ -468,15 +509,14 @@ export default class Modification extends Component {
             relation: obj.relation,
             phone: obj.phone,
             site: obj.site
-          })
+          });
         } else {
           this.refs.Form.setFieldsValue({
-            username
-          })
+            username,
+          });
         }
-      })
+      });
   }
-
 
   ButtonClick = () => {
     const { username } = JSON.parse(localStorage.getItem("token"));
@@ -484,22 +524,28 @@ export default class Modification extends Component {
     this.refs.Form.validateFields() // 表单验证
       .then((values) => {
         console.log(values);
-        axios.get(`http://localhost:3002/modification?username=${username}`).then(res => {
-          if (res.data.length > 0 && values.username === res.data[0].username) {
-            axios.put(`http://localhost:3002/modification/${res.data[0].id}`, {
-              ...values
-            })
-          } else {
-            axios.post("http://localhost:3002/modification", {
-              ...values,
-            })
-          }
-        })
+        axios
+          .get(`http://localhost:3002/modification?username=${username}`)
+          .then((res) => {
+            if (
+              res.data.length > 0 &&
+              values.username === res.data[0].username
+            ) {
+              axios.put(
+                `http://localhost:3002/modification/${res.data[0].id}`,
+                {
+                  ...values,
+                  HeadPortrait: values.HeadPortrait.file.thumbUrl
+                }
+              );
+            } else {
+              axios.post("http://localhost:3002/modification", {
+                ...values,
+                HeadPortrait: values.HeadPortrait.file.thumbUrl
+              });
+            }
+          });
         this.props.history.push("/student/data");
       });
-  };
-
-  SelectClick = (obj) => {
-    console.log(obj);
   };
 }

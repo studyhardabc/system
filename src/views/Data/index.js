@@ -20,7 +20,7 @@ export default class Data extends Component {
           <div>
           <div className={style.box2}>
             <div className={style.box}>
-              <img src="/logo192.png" />
+              <img src={this.state.data.HeadPortrait} />
             </div>
             <div className={style.box1}>
               <span>{this.state.data.username}</span>
@@ -47,8 +47,13 @@ export default class Data extends Component {
   }
 
   componentDidMount() {
+    this.fn1()
+  }
+
+  fn1 = () => {
     const { username } = JSON.parse(localStorage.getItem("token"));
     axios.get(`http://localhost:3002/modification?username=${username}`).then(res => {
+      console.log(res.data[0]);
       this.setState({
         data: res.data[0]
       })
