@@ -368,7 +368,7 @@
       "QQ": "123",
       "IdentityCard": "123",
       "provinces": "广东省",
-      "schoolname": "江西科技大学",
+      "schoolname": "江西财经大学",
       "specialty": "123",
       "status": "大一",
       "education": "博士",
@@ -383,6 +383,766 @@
       "site": "123",
       "HeadPortrait": "data:image/png;base64,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",
       "id": 2
+    }
+  ],
+  "examination":[
+    {
+      "examination-sin":[
+        {
+          "id": 1,
+          "title":"产生当前日期的方法是",
+          "fraction": 2.0 ,
+          "rightkey":"C",
+          "content":{
+            "A" : {
+              "list":["A,Now()"],
+              "status": false
+            },
+            "B":{
+              "list":["B,new Data()"],
+              "status":false
+            },
+            "C":{
+              "list":["C,new Date()"],
+              "status":true
+            },
+            "D":{
+              "list":["D,new Now()"],
+              "status":false
+            }
+          }
+        },
+        {
+          "id": 2,
+          "title":"在Javascript浏览器对象模型中，window对象的（）属性用来指定浏览器状态栏中显示的临时消息",
+          "fraction": 2.0 ,
+          "rightkey":"A",
+          "content":{
+            "A" : {
+              "list":["A,status"],
+              "status": true
+            },
+            "B":{
+              "list":["B,screen"],
+              "status":false
+            },
+            "C":{
+              "list":["C,history"],
+              "status":false
+            },
+            "D":{
+              "list":["D,document"],
+              "status":false
+            }
+          }
+        },
+        {
+          "id": 3,
+          "title":"下面哪个方法可以匹配数组是否含有某个值？",
+          "fraction": 2.0 ,
+          "rightkey":"D",
+          "content":{
+            "A" : {
+              "list":["A,sort()"],
+              "status": false
+            },
+            "B":{
+              "list":["B,push()"],
+              "status":false
+            },
+            "C":{
+              "list":["C,join()"],
+              "status":false
+            },
+            "D":{
+              "list":["D,indexOf()"],
+              "status":true
+            }
+          }
+        },
+        {
+          "id": 4,
+          "title":"Jq中找到指定div元素id为user错误的",
+          "fraction": 2.0 ,
+          "rightkey":"D",
+          "content":{
+            "A" : {
+              "list":["A,$('#user')"],
+              "status": false
+            },
+            "B":{
+              "list":["B,('#'+'user')"],
+              "status":false
+            },
+            "C":{
+              "list":["C,$('div[id=user]')"],
+              "status":false
+            },
+            "D":{
+              "list":["D,$('div[id==user]')"],
+              "status":true
+            }
+          }
+        },
+        {
+          "id": 5,
+          "title":"有代码var obj1={a:[1]，b：1）；var obj2={a:[2]，c：2}；var obj=Object.assign（obj1，obj2）；运行之后obj的结果为",
+          "fraction": 2.0 ,
+          "rightkey":"C",
+          "content":{
+            "A" : {
+              "list":["A,{a:[1],b:1}"],
+              "status": false
+            },
+            "B":{
+              "list":["B,{a:[1,2],b:1,c:2}"],
+              "status":false
+            },
+            "C":{
+              "list":["C,{a:[2],b:1,c:2}"],
+              "status":true
+            },
+            "D":{
+              "list":["D,{a:[2],c:2})"],
+              "status":false
+            }
+          }
+        },
+        {
+          "id": 6,
+          "title":"有代码 function foo(){var a=10；return function(){console.log（a++）}}foo()()；运行之后，会在控制台中打印",
+          "fraction": 2.0 ,
+          "rightkey":"A",
+          "content":{
+            "A" : {
+              "list":["A,10"],
+              "status": true
+            },
+            "B":{
+              "list":["B,11"],
+              "status":false
+            },
+            "C":{
+              "list":["C,函数体"],
+              "status":false
+            },
+            "D":{
+              "list":["D,报错"],
+              "status":false
+            }
+          }
+        },
+        {
+          "id": 7,
+          "title":"在ES6（2015）中，哪个是原先没有的名词",
+          "fraction": 2.0 ,
+          "rightkey":"B",
+          "content":{
+            "A" : {
+              "list":["A,函数"],
+              "status": false
+            },
+            "B":{
+              "list":["B,类"],
+              "status":true
+            },
+            "C":{
+              "list":["C,递归"],
+              "status":false
+            },
+            "D":{
+              "list":["D,过程"],
+              "status":false
+            }
+          }
+        },
+        {
+          "id": 8,
+          "title":"jQuery中的delay方法的作用是",
+          "fraction": 2.0 ,
+          "rightkey":"C",
+          "content":{
+            "A" : {
+              "list":["A,停止动画执行"],
+              "status": false
+            },
+            "B":{
+              "list":["B,暂停动画执行"],
+              "status":false
+            },
+            "C":{
+              "list":["C,延迟动画执行"],
+              "status":true
+            },
+            "D":{
+              "list":["D,开始动画执行"],
+              "status":false
+            }
+          }
+        },
+        {
+          "id": 9,
+          "title":"php的源码是（）开源语言",
+          "fraction": 2.0 ,
+          "rightkey":"A",
+          "content":{
+            "A" : {
+              "list":["A,开放的"],
+              "status": true
+            },
+            "B":{
+              "list":["B,封闭的"],
+              "status":false
+            },
+            "C":{
+              "list":["C,需购买的"],
+              "status":false
+            },
+            "D":{
+              "list":["D,完全不可见的"],
+              "status":false
+            }
+          }
+        },
+        {
+          "id": 10,
+          "title":"XMLHttpRequest对象的status属性表示当前请求的http状态码，其中（）表示正确返回。",
+          "fraction": 2.0 ,
+          "rightkey":"A",
+          "content":{
+            "A" : {
+              "list":["A,200"],
+              "status": true
+            },
+            "B":{
+              "list":["B,301"],
+              "status":false
+            },
+            "C":{
+              "list":["C,500"],
+              "status":false
+            },
+            "D":{
+              "list":["D,404"],
+              "status":false
+            }
+          }
+        },
+        {
+          "id": 11,
+          "title":"以下运行的结果是false的是function Box(){this.name='zhang'}function Desk(){this.age=100}function Table()（this.lever=1000]Desk.prototype=new Box()；//通过原型链继承 var desk=new Desk()；var table=new Table()；",
+          "fraction": 2.0 ,
+          "rightkey":"C",
+          "content":{
+            "A" : {
+              "list":["A,alert(table instanceof Object)"],
+              "status": false
+            },
+            "B":{
+              "list":["B,alert(desk instanceof Box);"],
+              "status":false
+            },
+            "C":{
+              "list":["C,alert(Desk instanceof Box);"],
+              "status":true
+            },
+            "D":{
+              "list":["D,alert(desk instanceof Desk);"],
+              "status":false
+            }
+          }
+        },
+        {
+          "id": 12,
+          "title":"gulp-sass模块的作用是？",
+          "fraction": 2.0 ,
+          "rightkey":"B",
+          "content":{
+            "A" : {
+              "list":["A,编译JS"],
+              "status": false
+            },
+            "B":{
+              "list":["B,编译SCSS"],
+              "status":true
+            },
+            "C":{
+              "list":["C,编译HTML"],
+              "status":false
+            },
+            "D":{
+              "list":["D,编译图片"],
+              "status":false
+            }
+          }
+        },
+        {
+          "id": 13,
+          "title":"jQuery中，哪个方法能够改变属性？",
+          "fraction": 2.0 ,
+          "rightkey":"A",
+          "content":{
+            "A" : {
+              "list":["A,attr()"],
+              "status": true
+            },
+            "B":{
+              "list":["B,push()"],
+              "status":false
+            },
+            "C":{
+              "list":["C,map()"],
+              "status":false
+            },
+            "D":{
+              "list":["D,set()"],
+              "status":false
+            }
+          }
+        },
+        {
+          "id": 14,
+          "title":"如果提示提交内容为空、不能提交，则最为合适的处理方式是",
+          "fraction": 2.0 ,
+          "rightkey":"A",
+          "content":{
+            "A" : {
+              "list":["A,执行git status 查看状态，再执行git add命令选择要提交的文件，然后提交。"],
+              "status": true
+            },
+            "B":{
+              "list":["B,执行git commit--allow-empty，允许空提交。"],
+              "status":false
+            },
+            "C":{
+              "list":["C,执行git commit-a，提交所有改动。"],
+              "status":false
+            },
+            "D":{
+              "list":["D,执行 git commit--amend 进行修补提交。"],
+              "status":false
+            }
+          }
+        },
+        {
+          "id": 15,
+          "title":"在gulp中，要获取源文件的函数是（）",
+          "fraction": 2.0 ,
+          "rightkey":"B",
+          "content":{
+            "A" : {
+              "list":["A,dest"],
+              "status": false
+            },
+            "B":{
+              "list":["B,Src"],
+              "status":true
+            },
+            "C":{
+              "list":["C,pipe"],
+              "status":false
+            },
+            "D":{
+              "list":["D,server"],
+              "status":false
+            }
+          }
+        },
+        {
+          "id": 16,
+          "title":"将es6代码转成es5所使用到的插件是",
+          "fraction": 2.0 ,
+          "rightkey":"A",
+          "content":{
+            "A" : {
+              "list":["A,gulp-babel"],
+              "status": true
+            },
+            "B":{
+              "list":["B,gulp-sass"],
+              "status":false
+            },
+            "C":{
+              "list":["C,gulp-imagemin"],
+              "status":false
+            },
+            "D":{
+              "list":["D,gulp-less"],
+              "status":false
+            }
+          }
+        },
+        {
+          "id": 17,
+          "title":"使用requireJs开发项目时，入口文件的引入需要使用下面的哪个属性完成？",
+          "fraction": 2.0 ,
+          "rightkey":"A",
+          "content":{
+            "A" : {
+              "list":["A,data-main"],
+              "status": true
+            },
+            "B":{
+              "list":["B,data"],
+              "status":false
+            },
+            "C":{
+              "list":["C,main"],
+              "status":false
+            },
+            "D":{
+              "list":["D,import"],
+              "status":false
+            }
+          }
+        },
+        {
+          "id": 18,
+          "title":"如何获取仓库中的内容？",
+          "fraction": 2.0 ,
+          "rightkey":"A",
+          "content":{
+            "A" : {
+              "list":["A,git clone 地址"],
+              "status": true
+            },
+            "B":{
+              "list":["B,git not 地址"],
+              "status":false
+            },
+            "C":{
+              "list":["C,git none 地址"],
+              "status":false
+            },
+            "D":{
+              "list":["D,none"],
+              "status":false
+            }
+          }
+        },
+        {
+          "id": 19,
+          "title":"如何在本地创建仓库？",
+          "fraction": 2.0 ,
+          "rightkey":"C",
+          "content":{
+            "A" : {
+              "list":["A,git createR"],
+              "status": false
+            },
+            "B":{
+              "list":["B,git install-r"],
+              "status":false
+            },
+            "C":{
+              "list":["C,git init"],
+              "status":true
+            },
+            "D":{
+              "list":["D,git new-r"],
+              "status":false
+            }
+          }
+        },
+        {
+          "id": 20,
+          "title":"在HTML页面中，CSS样式的属性名为background-image对应的style对象的属性名是（）",
+          "fraction": 2.0 ,
+          "rightkey":"B",
+          "content":{
+            "A" : {
+              "list":["A,background-image"],
+              "status": false
+            },
+            "B":{
+              "list":["B,backgroundlmage"],
+              "status":true
+            },
+            "C":{
+              "list":["C,image"],
+              "status":false
+            },
+            "D":{
+              "list":["D,background"],
+              "status":false
+            }
+          }
+        }
+      ],
+      "examination-mul":[
+        {
+          "id": 1,
+          "title":"下面哪些属于数组的方法",
+          "fraction": 2.0 ,
+          "rightkey":["A","B","C","D"],
+          "content":{
+            "A" : {
+              "list":["A,sort()"],
+              "status": true
+            },
+            "B":{
+              "list":["B,push()"],
+              "status":true
+            },
+            "C":{
+              "list":["C,indexOf()"],
+              "status":true
+            },
+            "D":{
+              "list":["D,join()"],
+              "status":true
+            }
+          }
+        },
+        {
+          "id": 2,
+          "title":"以下哪条语句不会产生运行错误",
+          "fraction": 2.0 ,
+          "rightkey":["B","C","D"],
+          "content":{
+            "A" : {
+              "list":["A,var obj=()"],
+              "status": false
+            },
+            "B":{
+              "list":["B,var obj=[]"],
+              "status":true
+            },
+            "C":{
+              "list":["C,var obj={}"],
+              "status":true
+            },
+            "D":{
+              "list":["D,var obj=''"],
+              "status":true
+            }
+          }
+        },
+        {
+          "id": 3,
+          "title":"案例代码如下：<form><div class='big'>大字体</div><div class='small'>小字体</div></form>请选取文本是'大字体'的div对象",
+          "fraction": 2.0 ,
+          "rightkey":["A","C","D"],
+          "content":{
+            "A" : {
+              "list":["A,$（'div.big'）"],
+              "status": true
+            },
+            "B":{
+              "list":["B,$（'div.big'）"],
+              "status":true
+            },
+            "C":{
+              "list":["C,$('div:contains('大字体')')"],
+              "status":true
+            },
+            "D":{
+              "list":["D,join()"],
+              "status":true
+            }
+          }
+        },
+        {
+          "id": 4,
+          "title":"当XMLHttpRequest 对象的状态发生改变时调用callBackMethod函数，下列不正确的是（）",
+          "fraction": 2.0 ,
+          "rightkey":["A","B","C"],
+          "content":{
+            "A" : {
+              "list":["A,xmlHttpRequest. callBackMethod=onreadystatechange;"],
+              "status": true
+            },
+            "B":{
+              "list":["B,xmlHttpRequest. onreadystatechange(callBackMethod);"],
+              "status":true
+            },
+            "C":{
+              "list":["C,xmlHttpRequest. onreadystatechange(new function0{ callBackMethod ]);"],
+              "status":true
+            },
+            "D":{
+              "list":["D,xmlHttpRequest. onreadystatechange=callBackMethod"],
+              "status":false
+            }
+          }
+        },
+        {
+          "id": 5,
+          "title":"jquery绑定事件的方法有",
+          "fraction": 2.0 ,
+          "rightkey":["B","C","D"],
+          "content":{
+            "A" : {
+              "list":["A,one"],
+              "status": false
+            },
+            "B":{
+              "list":["B,bind"],
+              "status":true
+            },
+            "C":{
+              "list":["C,addEvent"],
+              "status":true
+            },
+            "D":{
+              "list":["D,on"],
+              "status":true
+            }
+          }
+        },
+        {
+          "id": 6,
+          "title":"jq中关于操作元素节点class属性的操作有",
+          "fraction": 2.0 ,
+          "rightkey":["A","B"],
+          "content":{
+            "A" : {
+              "list":["A,addClass"],
+              "status": true
+            },
+            "B":{
+              "list":["B,removeClass"],
+              "status":true
+            },
+            "C":{
+              "list":["C,attr('class','box')"],
+              "status":false
+            },
+            "D":{
+              "list":["D,setClass"],
+              "status":false
+            }
+          }
+        },
+        {
+          "id": 7,
+          "title":"sass中混合和函数的不同点",
+          "fraction": 2.0 ,
+          "rightkey":["B","C"],
+          "content":{
+            "A" : {
+              "list":["A,混合有返回值"],
+              "status": false
+            },
+            "B":{
+              "list":["B,函数有返回值"],
+              "status":true
+            },
+            "C":{
+              "list":["C,混合的结果是一段代码"],
+              "status":true
+            },
+            "D":{
+              "list":["D,没有不同点"],
+              "status":false
+            }
+          }
+        },
+        {
+          "id": 8,
+          "title":"以下可以绑定jquery事件的方法有",
+          "fraction": 2.0 ,
+          "rightkey":["A","B","C","D"],
+          "content":{
+            "A" : {
+              "list":["A,on"],
+              "status": true
+            },
+            "B":{
+              "list":["B,bind"],
+              "status":true
+            },
+            "C":{
+              "list":["C,click"],
+              "status":true
+            },
+            "D":{
+              "list":["D,hover"],
+              "status":true
+            }
+          }
+        },
+        {
+          "id": 9,
+          "title":"哪些是git常见操作命令",
+          "fraction": 2.0 ,
+          "rightkey":["B","C","D"],
+          "content":{
+            "A" : {
+              "list":["A,git add"],
+              "status": true
+            },
+            "B":{
+              "list":["B,cp"],
+              "status":false
+            },
+            "C":{
+              "list":["C,git commit"],
+              "status":true
+            },
+            "D":{
+              "list":["D,dir"],
+              "status":false
+            }
+          }
+        },
+        {
+          "id": 10,
+          "title":"下面哪些是jquery中的操作方法？",
+          "fraction": 2.0 ,
+          "rightkey":["A","B","C","D"],
+          "content":{
+            "A" : {
+              "list":["A,css()"],
+              "status": true
+            },
+            "B":{
+              "list":["B,addClass()"],
+              "status":true
+            },
+            "C":{
+              "list":["C,attr()"],
+              "status":true
+            },
+            "D":{
+              "list":["D,append()"],
+              "status":true
+            }
+          }
+        }
+      ],
+      "examination-bla":[
+        {
+          "id":1,
+          "title":"已知id为box，使用jquery如何获取到该元素",
+          "fraction": 2.0 ,
+          "rightkey":"$('#box')"
+        },
+        {
+          "id":2,
+          "title":"git中向远程服务器推送代码的命令git.",
+          "fraction": 2.0 ,
+          "rightkey":"push"
+        },
+        {
+          "id":3,
+          "title":"gulp设置任务使用",
+          "fraction": 2.0 ,
+          "rightkey":"git.task()"
+        },
+        {
+          "id":4,
+          "title":"用git进行版本管理时，查看所有版本的命令是",
+          "fraction": 2.0 ,
+          "rightkey":"git log"
+        },
+        {
+          "id":5,
+          "title":"it中表示提交的命令是什么命令完成",
+          "fraction": 2.0 ,
+          "rightkey":"git commit"
+        }
+      ]
     }
   ]
 }
